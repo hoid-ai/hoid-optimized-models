@@ -1,0 +1,26 @@
+[project]
+name = "qwen3-30b-a3b-decode-turbo"
+version = "0.1.0"
+description = "Self-sufficient PyTorch harnesses for Qwen3-30B-A3B-Instruct-2507: stock torch.compile baselines vs the hoid-derived decode kernel stack (custom CUDA ops, CUDA-graph captured)"
+requires-python = ">=3.12"
+dependencies = [
+    "torch==2.13.0",
+    "transformers==5.15.0",
+    "accelerate==1.14.0",
+    "safetensors>=0.8.0",
+    "numpy>=2",
+    "huggingface-hub>=1.0",
+    "ninja",
+]
+
+[tool.uv]
+# Scripts folder, not an installable package.
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

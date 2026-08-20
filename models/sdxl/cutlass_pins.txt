@@ -1,0 +1,8 @@
+# CUTLASS v4.6.1 — examples/python/CuTeDSL files the CuTe DSL kernels subclass.
+# sha256  path-relative-to-examples/python/CuTeDSL
+d59344faf902cb215a2cee3f2ae6415a14589c6ad8f93e5e74e2612c1e6a0810  cute/blackwell/kernel/dense_gemm/dense_gemm_persistent.py
+10599310d4c4a5fcc8f47c5d01390ae4a47145f16409d44020519dcda2cb0293  cute/blackwell/kernel/attention/fmha/fmha.py
+96e7913f4784ed8c151ce103aefce7dbff72e084f7d88ba0f8263e23a9c2fe78  cute/blackwell/kernel/attention/mixed_input_fmha/mixed_input_fmha_prefill_d512.py
+3ab18c42f31849080a4e4b7a845124912fe6edb65690777d1775568ecf65151c  cute/blackwell/kernel/attention/mixed_input_fmha/prefill_helpers.py
+9cf1ae75e6473e5acf38b8ef7b498a14ff74fd54741a930708f6995fcacb7581  helpers/__init__.py
+cbe090eb5567b7cdbd8b4944cbd579084fd60379c463bcfb011e6d4b28ef20e1  helpers/fmha_helpers.py

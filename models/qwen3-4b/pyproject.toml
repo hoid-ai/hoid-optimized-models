@@ -1,0 +1,28 @@
+[project]
+name = "qwen3-4b-torch-port"
+version = "0.0.0"
+requires-python = ">=3.12"
+# scripts folder, not an installable package (see [tool.uv] below)
+dependencies = [
+    "torch==2.13.0",
+    "transformers==5.15.0",
+    "accelerate==1.14.0",
+    "safetensors>=0.8.0",
+    "numpy>=2",
+    "ninja",          # torch.utils.cpp_extension.load_inline
+    "pyyaml>=6",
+    "nvidia-cutlass-dsl==4.6.0.dev0",  # the 8k prefill's SM100 FMHA kernel
+    "cuda-python>=13",
+]
+
+[tool.uv]
+package = false
+prerelease = "allow"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

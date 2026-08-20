@@ -1,0 +1,37 @@
+[project]
+name = "sdxl-base-turbo-kernels"
+version = "0.1.0"
+description = "Self-sufficient PyTorch harnesses for SDXL base 1.0 at 1024x1024: the strongest stock torch.compile baseline vs a tuned kernel stack (CuTe DSL dual-GEMM GEGLU, packed cross-attention KV + Triton flash attention, fused CUDA LayerNorm)"
+requires-python = ">=3.12"
+dependencies = [
+    "torch==2.13.0",
+    "diffusers==0.39.0",
+    "transformers==5.15.0",
+    # pinned: `prerelease = "allow"` below (needed for flash-attn-4 and the
+    # CuTe DSL wheel) otherwise resolves tokenizers to a pre-release whose
+    # RobertaProcessing signature transformers 5.15 cannot call, and loading
+    # SDXL's CLIP tokenizer dies with a TypeError
+    "tokenizers==0.22.2",
+    "accelerate==1.14.0",
+    "safetensors>=0.8.0",
+    "nvidia-cutlass-dsl==4.6.0.dev0",
+    "flash-attn-4==4.0.0b25",
+    "pillow>=11",
+    "numpy>=2",
+    "ninja",
+    "pyyaml>=6",
+]
+
+[tool.uv]
+# Scripts folder, not an installable package.
+package = false
+# flash-attn-4 / nvidia-cutlass-dsl ship as pre-releases.
+prerelease = "allow"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

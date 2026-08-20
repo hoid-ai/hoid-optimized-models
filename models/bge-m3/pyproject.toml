@@ -1,0 +1,28 @@
+[project]
+name = "bge-m3-dense-turbo"
+version = "0.1.0"
+description = "Self-sufficient PyTorch harnesses for bge-m3's dense embedding: stock torch.compile baselines vs the hoid-derived kernel stack (custom CUDA + Triton ops)"
+requires-python = ">=3.12"
+dependencies = [
+    "torch==2.13.0",
+    "transformers==5.15.0",
+    "safetensors>=0.8.0",
+    "huggingface-hub>=1.0",
+    "sentencepiece>=0.2",
+    "protobuf>=5",
+    "numpy>=2",
+    "ninja",
+    "cuda-python>=13",
+]
+
+[tool.uv]
+# Scripts folder, not an installable package.
+package = false
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

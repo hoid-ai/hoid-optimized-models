@@ -1,0 +1,33 @@
+[project]
+name = "whisper-large-v3-encoder-turbo"
+version = "0.1.0"
+description = "Self-sufficient PyTorch harnesses for whisper-large-v3's encoder: stock torch.compile baselines vs the hoid-derived kernel stack (custom CUDA/Triton/CuTe DSL ops + flash-attn 4)"
+requires-python = ">=3.12"
+dependencies = [
+    "torch==2.13.0",
+    "transformers==5.15.0",
+    "accelerate==1.14.0",
+    "safetensors>=0.8.0",
+    "flash-attn-4==4.0.0b25",
+    "nvidia-cutlass-dsl==4.6.0.dev0",
+    "numpy>=2",
+    "soundfile>=0.13",
+    "pyarrow>=18",
+    "huggingface-hub>=1.0",
+    "ninja",
+    "pyyaml>=6",
+]
+
+[tool.uv]
+# Scripts folder, not an installable package.
+package = false
+# flash-attn-4 / nvidia-cutlass-dsl / einops ship as pre-releases.
+prerelease = "allow"
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

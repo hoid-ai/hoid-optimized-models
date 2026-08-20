@@ -1,0 +1,2 @@
+#include <cuda_bf16.h>
+extern "C" __global__ void bge_pool_k(float*out,const __nv_bfloat16*x,const int*dyn_dims){int b=blockIdx.x,lane=threadIdx.x;__shared__ float sm[256];float s=0;for(int j=lane;j<1024;j+=256){float v=__bfloat162float(x[(b*512)*1024+j]);s+=v*v;}sm[lane]=s;__syncthreads();for(int d=128;d;d>>=1){if(lane<d)sm[lane]+=sm[lane+d];__syncthreads();}float inv=rsqrtf(sm[0]);for(int j=lane;j<1024;j+=256)out[b*1024+j]=__bfloat162float(x[(b*512)*1024+j])*inv;}

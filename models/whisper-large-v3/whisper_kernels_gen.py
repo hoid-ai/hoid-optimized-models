@@ -1,0 +1,112 @@
+"""GENERATED manifest of the winning hoid encoder kernels — do not edit by
+hand. Keyed by role. `file` names a source under kernels/ that is
+byte-identical to the shipped artifact (`sha256` is over that source);
+`launch` is the geometry hoid launched it with; `compile` holds the
+CuTe DSL / Triton constants.
+"""
+
+KERNELS = {
+    'conv1': {
+        'entry': 'whisper_conv1_tc_gemm_gelu_k_blockco64blockl256w4s3',
+        'format': 'triton',
+        'file': 'whisper_conv1_tc_gemm_gelu_k_blockco64blockl256w4s3.triton.py',
+        'sha256': 'a6470866a2c9c41f3faf4005855f62743bd63fdddbe951797a3f7e263400ba17',
+        'count': 1,
+        'launch': {'grid': ['ceil_div(3000, 256)', 'ceil_div(1280, 64)', '1']},
+        'constexprs': {'BLOCK_CO': 64, 'BLOCK_K': 64, 'BLOCK_L': 256},
+        'num_warps': 4,
+        'num_stages': 3,
+    },
+    'conv2_im2col': {
+        'entry': 'whisper_conv2_im2col_tmajor_k',
+        'format': 'cuda',
+        'file': 'whisper_conv2_im2col_tmajor_k.cu',
+        'sha256': 'fa7be109e9fd1a656cb2fe83d481b481d4d66d4e9ab943141bf07053cf1706f4',
+        'count': 1,
+        'launch': {'grid': ['ceil_div(1500, 32)', 'ceil_div(1280, 32)', '3'], 'block': ['32', '8', '1'], 'shared_mem': '0'},
+    },
+    'conv2_weight_tmajor': {
+        'entry': 'whisper_conv2_weight_tmajor_k',
+        'format': 'cuda',
+        'file': 'whisper_conv2_weight_tmajor_k.cu',
+        'sha256': '1d7af0a1f017d1d49ff5233704de7473ee503e1e993366512bde8ec9f4429bb7',
+        'count': 1,
+        'launch': {'grid': ['ceil_div(1280 * 3 * 1280, 256)', '1', '1'], 'block': ['256', '1', '1'], 'shared_mem': '0'},
+    },
+    'conv2_efc': {
+        'entry': 'conv2_blackwell_efc_bias_entry',
+        'format': 'cutedsl',
+        'file': 'conv2_blackwell_efc_bias_entry.cutedsl.py',
+        'sha256': '44a6d016b44bdd307533d24b9fc07fe961472b46f116a6f715ea72a80c4a3063',
+        'count': 1,
+        'compile': {'M': 1500, 'N': 1280, 'K': 3840, 'TILE_M': 64, 'TILE_N': 128, 'CLUSTER_M': 1, 'CLUSTER_N': 1, 'TWO_CTA': False, 'MAX_CLUSTERS': 148},
+        'options': '--opt-level=2',
+    },
+    'conv2_gelu_cm': {
+        'entry': 'whisper_conv2_exact_gelu_channel_major_k',
+        'format': 'cuda',
+        'file': 'whisper_conv2_exact_gelu_channel_major_k.cu',
+        'sha256': 'b030e41f0a16adc6308a34a11cf29a406608da9b472339c368b196deb72e3eac',
+        'count': 1,
+        'launch': {'grid': ['ceil_div(1500 * 1280, 256)', '1', '1'], 'block': ['256', '1', '1'], 'shared_mem': '0'},
+    },
+    'tpos': {
+        'entry': 'whisper_tpos_k',
+        'format': 'cuda',
+        'file': 'whisper_tpos_k.cu',
+        'sha256': '03e9d0681cf94210829433223f45c390a672a74549058ebbf06ccd5543f617da',
+        'count': 1,
+        'launch': {'grid': ['7500', '1', '1'], 'block': ['256', '1', '1'], 'shared_mem': '0'},
+    },
+    'ln': {
+        'entry': 'whisper_ln_volatile_warptail_k',
+        'format': 'cuda',
+        'file': 'whisper_ln_volatile_warptail_k.cu',
+        'sha256': '89742eee07f2a04b1b2f41b7a3604886fc6f968b3c42201ad3ed130feab2ac15',
+        'count': 2,
+        'launch': {'grid': ['1500', '1', '1'], 'block': ['256', '1', '1'], 'shared_mem': '0'},
+    },
+    'triple_qkv': {
+        'entry': 'triple_qkv_entry',
+        'format': 'cutedsl',
+        'file': 'triple_qkv_entry.cutedsl.py',
+        'sha256': 'b5084cc610afa991724b4f3673979671199f0325e113e5b4ba15dd509ad5c00a',
+        'count': 32,
+        'compile': {'CLUSTER_M': 2, 'CLUSTER_N': 1, 'K': 1280, 'M': 1500, 'MAX_CLUSTERS': 74, 'N': 1280, 'NUM_AB_STAGE': 3, 'NUM_C_STAGE': 2, 'TILE_M': 128, 'TILE_N': 128, 'TWO_CTA': False},
+        'options': '--opt-level=2',
+    },
+    'ordered_residual_ln': {
+        'entry': 'whisper_ordered_residual_ln_replicated_k',
+        'format': 'cuda',
+        'file': 'whisper_ordered_residual_ln_replicated_k.cu',
+        'sha256': '268cf7d164bf99973f3666d0d0093200996f8b68e761b578a71243694f2691c9',
+        'count': 63,
+        'launch': {'grid': ['1500', '1', '1'], 'block': ['128', '1', '1'], 'shared_mem': '0'},
+    },
+    'fc1_gelu': {
+        'entry': 'fc1_persistent_exact_gelu_entry',
+        'format': 'cutedsl',
+        'file': 'fc1_persistent_exact_gelu_entry.cutedsl.py',
+        'sha256': '55fa3458ae3c7f0f3b56e39f06526a12bc97d865e45b93c4f1b6f5184506565c',
+        'count': 32,
+        'compile': {'CLUSTER_M': 2, 'CLUSTER_N': 1, 'K': 1280, 'M': 1500, 'MAX_CLUSTERS': 74, 'N': 5120, 'TILE_M': 256, 'TILE_N': 128, 'TWO_CTA': True},
+        'options': '--opt-level=2',
+    },
+    'dense_residency': {
+        'entry': 'dense_residency_entry',
+        'format': 'cutedsl',
+        'file': 'dense_residency_entry.cutedsl.py',
+        'sha256': '53b22471d2af71969835fab3796aa4c1afd0fa511b52aefaa400f1fe5fcdccc5',
+        'count': 1,
+        'compile': {'MAX_CLUSTERS': 148, 'OCCUPANCY': 1, 'TILE_M': 128, 'TILE_N': 128},
+        'options': '--opt-level=2',
+    },
+    'ordered_bias_residual': {
+        'entry': 'whisper_ordered_bias_residual_k',
+        'format': 'cuda',
+        'file': 'whisper_ordered_bias_residual_k.cu',
+        'sha256': '8cc48495c4de143dcc27f090a09a43abce9254eda2a7a8555deccb57025a2c3d',
+        'count': 1,
+        'launch': {'grid': ['938', '1', '1'], 'block': ['256', '1', '1'], 'shared_mem': '0'},
+    },
+}
