@@ -64,6 +64,8 @@ def main():
     model, tok = load_model(device)
     input_ids = build_prompt(tok, device, args.prompt_tokens)
     n_prompt = input_ids.shape[1]
+    print(f"prompt: {n_prompt} tokens, this passage tiled: "
+          f"{tok.decode(input_ids[0, :48]).strip()[:200]!r} …")
     needed = n_prompt + DECODE_WARMUP + MEASURED_DECODE_STEPS + 2
     window = MAX_SEQ if needed <= MAX_SEQ else -(-needed // 256) * 256
 
@@ -83,7 +85,7 @@ def main():
     if not ok:
         raise SystemExit(f"hoid path failed the greedy-token gate ({ratio:.3f} < 0.95); "
                          "no timing will be reported")
-    print("  " + repr(tok.decode(got)))
+    print(f"output (32 greedy tokens): {tok.decode(got)!r}")
 
     # ---- prefill / TTFT ---------------------------------------------------
     # The port prefill rewrites cache rows 0..S-1 in place every call.
@@ -119,6 +121,8 @@ def main():
         "decode_p95_ms": percentile(decode_ms, 0.95),
         "decode_tok_s": 1000.0 / percentile(decode_ms, 0.5),
         "correctness_ratio": ratio,
+        "prompt_preview": tok.decode(input_ids[0, :48]).strip()[:200] + " …",
+        "output_text": tok.decode(got),
     }
     with open(os.path.join(HERE, results_name("best_hoid", n_prompt)), "w") as f:
         json.dump(res, f, indent=2)

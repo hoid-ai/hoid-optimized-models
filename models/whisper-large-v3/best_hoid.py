@@ -46,7 +46,8 @@ import torch  # noqa: E402
 
 import common as C  # noqa: E402
 import whisper_decoder_optimized as WD  # noqa: E402
-from common import SAMPLE_RATE, WINDOW_SECONDS, load_speech, mel_features  # noqa: E402
+from common import (AUDIO_REPO, SAMPLE_RATE, WINDOW_SECONDS,  # noqa: E402
+                    load_speech, mel_features)
 from best_torch import MAX_NEW_TOKENS, report, sync_ms  # noqa: E402
 
 VOCAB = WD.VOCAB
@@ -204,7 +205,9 @@ def main():
     if args.json:
         os.makedirs(os.path.dirname(args.json) or ".", exist_ok=True)
         with open(args.json, "w") as f:
-            json.dump({"impl": "hoid kernel stack", "gpu": torch.cuda.get_device_name(0),
+            json.dump({"impl": "hoid kernel stack",
+                       "gpu": torch.cuda.get_device_name(0),
+                       "audio": f"{AUDIO_REPO} (LibriSpeech), first {WINDOW_SECONDS} s, 16 kHz mono",
                        "stages_ms": {k: round(v, 3) for k, v in stages.items()},
                        "transcript_matches_hf": ref_text is None or text == ref_text,
                        **row}, f, indent=2)

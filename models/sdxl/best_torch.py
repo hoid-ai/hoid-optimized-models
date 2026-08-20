@@ -151,6 +151,7 @@ def main():
 def _summary(results, chosen, after, e2e, stage_info, args):
     print(f"\n== stock PyTorch, SDXL base 1.0, 1024x1024, {args.steps} steps, warm ==")
     print(f"   {common.gpu_banner()}")
+    print(f"   prompt: {args.prompt!r}")
     for name, (mean, mn) in results.items():
         tag = "  <- chosen" if name == chosen else ""
         print(f"ONE UNet forward  {name:32} {mean:9.3f} ms  (min {mn:.3f}){tag}")
@@ -171,7 +172,7 @@ def _summary(results, chosen, after, e2e, stage_info, args):
         print(f"image -> {out_path}")
     if args.json:
         row = {"impl": f"stock torch {chosen}", "gpu": common.gpu_banner(),
-               "chosen": chosen,
+               "chosen": chosen, "prompt": args.prompt, "image": args.out,
                "lattice_ms": {k: {"mean": round(m, 3), "min": round(mn, 3)}
                               for k, (m, mn) in results.items()},
                "unet_forward_ms": round((after or results[chosen])[0], 3),

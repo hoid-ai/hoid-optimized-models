@@ -51,6 +51,8 @@ def main():
     print(f"[{C.gpu_banner()}]")
     tokzr = C.load_tokenizer(args.weights)
     ids = C.build_prompt_ids(tokzr, args.prompt_tokens).to("cuda")
+    print(f"[prompt] {args.prompt_tokens} tokens, this passage tiled: "
+          f"{C.prompt_preview(tokzr, ids)!r}")
     P, G = args.prompt_tokens, args.gen_tokens
 
     hf_tokens = None
@@ -73,7 +75,9 @@ def main():
         print(f"[gate] greedy parity vs HF: {n}/{G} (first divergence: {first_div})")
         ok = port_tokens[:16] == hf_tokens[:16] and n >= int(0.95 * G)
         assert ok, "token parity gate FAILED — not a result"
-        print(f"  text: {tokzr.decode(port_tokens[:32])!r} ...")
+
+    output_text = tokzr.decode(port_tokens)
+    print(f"[output] {G} greedy tokens:\n{output_text}")
 
     # ---- timing -----------------------------------------------------------
     prefill_reps = 3 if P >= 4096 else 7
@@ -123,8 +127,9 @@ def main():
     C.write_json("out/best_hoid.json", {
         "workload": {"prompt_tokens": P, "gen_tokens": G},
         "torch": torch.__version__,
+        "prompt_preview": C.prompt_preview(tokzr, ids),
+        "output_text": output_text,
         "metrics": mine,
-        "tokens": port_tokens,
     })
 
 

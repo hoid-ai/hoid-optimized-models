@@ -163,7 +163,9 @@ def main():
                        "forward_p50_ms": round(rows[best][0]["p50"], 3),
                        "forward_mean_ms": round(rows[best][0]["mean"], 3),
                        "throughput_seq_s": round(thr, 1),
-                       "demo_ms": round(demo_ms, 3)}, f, indent=2)
+                       "demo_ms": round(demo_ms, 3),
+                       "retrieval": H.retrieval_rows(pooled, q_rows, p_rows)},
+                      f, indent=2)
         print(f"[json] {args.json}")
 
 

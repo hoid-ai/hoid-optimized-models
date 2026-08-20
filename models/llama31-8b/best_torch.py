@@ -143,6 +143,8 @@ def main():
     print(f"[{C.gpu_banner()}]")
     tokzr = C.load_tokenizer(args.weights)
     ids = C.build_prompt_ids(tokzr, args.prompt_tokens).to("cuda")
+    print(f"[prompt] {args.prompt_tokens} tokens, this passage tiled: "
+          f"{C.prompt_preview(tokzr, ids)!r}")
     model = C.load_hf_model(args.weights)
 
     results, ref32 = {}, None
@@ -174,12 +176,18 @@ def main():
     print(f"  prefill winner: {best['prefill_config']}, decode winner: {best['decode_config']},"
           f" e2e winner: {best['e2e_config']}")
 
+    output_text = tokzr.decode(ref32)
+    print(f"[output] 32 greedy tokens (every config in `best` matches these): "
+          f"{output_text!r}")
+    for v in results.values():
+        v.pop("greedy32")
     C.write_json("out/best_torch.json", {
         "workload": {"prompt_tokens": args.prompt_tokens, "gen_tokens": args.gen_tokens},
         "torch": torch.__version__,
+        "prompt_preview": C.prompt_preview(tokzr, ids),
+        "output_text": output_text,
         "configs": results,
         "best": best,
-        "greedy32": ref32,
     })
 
 

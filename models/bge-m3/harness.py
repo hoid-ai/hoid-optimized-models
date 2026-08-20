@@ -115,20 +115,33 @@ def retrieval_top1(pooled: torch.Tensor, query_rows: list[int]) -> list[int]:
     return top1
 
 
-def print_retrieval(pooled: torch.Tensor, query_rows, passage_rows) -> list[int]:
+def retrieval_rows(pooled: torch.Tensor, query_rows, passage_rows) -> list[dict]:
+    """The demo's evidence, JSON-shaped: each query's text, the text it
+    retrieved, the cosine, and whether that is its paired passage."""
     top1 = retrieval_top1(pooled, query_rows)
     sims = pooled @ pooled.T
-    print("  query -> retrieved passage (cosine)   [expected row in brackets]")
-    hits = 0
+    n = len(query_rows)
+    rows = []
     for i, q in enumerate(query_rows):
         got = top1[i]
-        hit = got == passage_rows[i]
-        hits += hit
-        text = DEMO_PAIRS[i][0]
-        print(f"  {'OK ' if hit else 'MISS'} q{i}: row {got} [{passage_rows[i]}] "
-              f"cos={sims[q, got]:.4f}  {text[:56]}")
-    print(f"  {hits}/{len(query_rows)} queries retrieved their paired passage")
-    return top1
+        text = (DEMO_PAIRS[got - n][1] if n <= got < 2 * n
+                else "(a distractor row: rolled corpus text)")
+        rows.append({"query": DEMO_PAIRS[i][0],
+                     "retrieved": text,
+                     "cosine": round(float(sims[q, got]), 4),
+                     "is_paired_passage": got == passage_rows[i]})
+    return rows
+
+
+def print_retrieval(pooled: torch.Tensor, query_rows, passage_rows) -> None:
+    rows = retrieval_rows(pooled, query_rows, passage_rows)
+    hits = 0
+    for i, r in enumerate(rows):
+        hits += r["is_paired_passage"]
+        print(f"  {'OK ' if r['is_paired_passage'] else 'MISS'} q{i}: "
+              f"{r['query'][:52]!r}\n"
+              f"       -> (cos {r['cosine']:.4f}) {r['retrieved'][:90]!r}")
+    print(f"  {hits}/{len(rows)} queries retrieved their paired passage")
 
 
 # ---------------------------------------------------------------------------

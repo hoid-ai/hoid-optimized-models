@@ -44,7 +44,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import torch  # noqa: E402
 
 import common as C  # noqa: E402
-from common import SAMPLE_RATE, WINDOW_SECONDS, load_speech, mel_features  # noqa: E402
+from common import (AUDIO_REPO, SAMPLE_RATE, WINDOW_SECONDS,  # noqa: E402
+                    load_speech, mel_features)
 
 MAX_NEW_TOKENS = 224
 
@@ -205,6 +206,7 @@ def main():
             with open(args.json, "w") as f:
                 json.dump({"impl": f"torch {args.config} static-cache",
                            "gpu": torch.cuda.get_device_name(0),
+                           "audio": f"{AUDIO_REPO} (LibriSpeech), first {WINDOW_SECONDS} s, 16 kHz mono",
                            "stages_ms": {k: round(v, 3) for k, v in stages.items()},
                            **row}, f, indent=2)
             print(f"\n[json] {args.json}")
@@ -244,7 +246,9 @@ def main():
     if args.json:
         os.makedirs(os.path.dirname(args.json) or ".", exist_ok=True)
         with open(args.json, "w") as f:
-            json.dump({"impl": f"torch {args.config} generate()", "gpu": torch.cuda.get_device_name(0),
+            json.dump({"impl": f"torch {args.config} generate()",
+                       "gpu": torch.cuda.get_device_name(0),
+                       "audio": f"{AUDIO_REPO} (LibriSpeech), first {WINDOW_SECONDS} s, 16 kHz mono",
                        **row}, f, indent=2)
         print(f"\n[json] {args.json}")
 

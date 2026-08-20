@@ -270,6 +270,7 @@ class _AsModule(torch.nn.Module):
 def _summary(results, chosen, after, e2e, stage_info, args, snr, psnr):
     print(f"\n== tuned kernel stack, SDXL base 1.0, 1024x1024, {args.steps} steps, warm ==")
     print(f"   {common.gpu_banner()}")
+    print(f"   prompt: {args.prompt!r}")
     print(f"   self-attention {SO.SELF_ATTN} | "
           f"{SO.Kernels(fused_ln=not args.no_fused_ln, geglu=not args.no_geglu, packed_kv=not args.no_packed_kv)}")
     for name, (mean, mn) in results.items():
@@ -297,7 +298,8 @@ def _summary(results, chosen, after, e2e, stage_info, args, snr, psnr):
         print(f"image -> {out_path}   (stock reference -> {args.ref_out})")
     if args.json:
         row = {"impl": f"hoid kernel stack ({chosen})", "gpu": common.gpu_banner(),
-               "chosen": chosen,
+               "chosen": chosen, "prompt": args.prompt, "image": args.out,
+               "stock_reference_image": args.ref_out,
                "exec_modes_ms": {k: {"mean": round(m, 3), "min": round(mn, 3)}
                                  for k, (m, mn) in results.items()},
                "unet_forward_ms": round((after or results[chosen])[0], 3),

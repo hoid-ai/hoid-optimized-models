@@ -138,10 +138,11 @@ def main():
     print(f"loading {common.MODEL} ...")
     model, tok = load_model(device)
     input_ids = build_prompt(tok, device, args.prompt_tokens)
-    print(f"prompt: {input_ids.shape[1]} tokens")
+    print(f"prompt: {input_ids.shape[1]} tokens, this passage tiled: "
+          f"{tok.decode(input_ids[0, :48]).strip()[:200]!r} …")
 
     ref = greedy_static(model.forward, model, input_ids, CORRECTNESS_TOKENS, device)
-    print(f"eager reference: {ref[:8]} ...")
+    print(f"eager reference (32 greedy tokens): {tok.decode(ref)!r}")
 
     names = (["eager", "c2", "c3", "c4", "c4-nocg"]
              if args.config == "sweep" else [args.config])
@@ -162,7 +163,10 @@ def main():
     best = min(results, key=lambda r: r["decode_p50_ms"])
     out = {"model": common.MODEL, "torch": torch.__version__,
            "gpu": torch.cuda.get_device_name(0),
-           "prompt_tokens": input_ids.shape[1], "best": best, "all": results}
+           "prompt_tokens": input_ids.shape[1],
+           "prompt_preview": tok.decode(input_ids[0, :48]).strip()[:200] + " …",
+           "output_text": tok.decode(ref),
+           "best": best, "all": results}
     out_name = results_name("best_torch", input_ids.shape[1])
     with open(os.path.join(HERE, out_name), "w") as f:
         json.dump(out, f, indent=2)

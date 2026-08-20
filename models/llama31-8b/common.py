@@ -46,6 +46,11 @@ def build_prompt_ids(tokenizer, n_tokens: int) -> torch.Tensor:
     return ids.repeat(reps)[:n_tokens]
 
 
+def prompt_preview(tokenizer, ids, n_chars: int = 200) -> str:
+    """The decoded head of the (tiled) prompt, for display."""
+    return tokenizer.decode(ids[:64]).strip()[:n_chars] + " …"
+
+
 def load_tokenizer(weights_dir: str = DEFAULT_WEIGHTS):
     from transformers import AutoTokenizer
 

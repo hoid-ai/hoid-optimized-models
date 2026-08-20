@@ -189,7 +189,8 @@ def main():
                "forward_p50_ms": round(rows[best]["p50"], 3),
                "forward_mean_ms": round(rows[best]["mean"], 3),
                "throughput_seq_s": round(thr, 1),
-               "demo_ms": round(demo_ms, 3)}
+               "demo_ms": round(demo_ms, 3),
+               "retrieval": H.retrieval_rows(pooled_demo, q_rows, p_rows)}
         if not args.skip_check:
             row["gates"] = {"last_hidden_snr_db": round(snr, 2),
                             "pooled_cos_fp32": round(cos32, 4),
