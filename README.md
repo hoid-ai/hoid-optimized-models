@@ -2,7 +2,7 @@
 
 This repo highlights models where hoid-generated kernels achieve superior performance compared to PyTorch. Every model is pure PyTorch - the winning kernels run as torch custom ops (CUDA / Triton / CuTe DSL, JIT-compiled at import), with no hoid runtime involved.
 
-Each folder is self-sufficient: its own pinned `uv` environment, a `best_torch.py` that derives the strongest stock `torch.compile` configuration on your box, and a `best_hoid.py` that refuses to report performance until its correctness gates pass.
+Each folder is self-sufficient: its own pinned `uv` environment, a `best_torch.py` that derives the strongest stock `torch.compile` configuration on your box, and a `best_hoid.py` runs the hoid implementaiton. 
 
 ## Quick Start
 To run any model:
