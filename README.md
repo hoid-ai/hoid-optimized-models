@@ -6,14 +6,13 @@ Each folder is self-sufficient: its own pinned `uv` environment, a `best_torch.p
 
 All numbers below were measured on an NVIDIA B200 (CUDA 13.0, torch 2.13.0+cu130, bf16); the kernels target Blackwell (sm100). Prerequisites: CUDA 13 with `nvcc` on PATH and [uv](https://docs.astral.sh/uv/). 
 
-| model | workload | vs tuned torch |
-|---|---|---|
-| [qwen3-4b](models/qwen3-4b) | batch-1 serving | TTFT **1.59x** @ 1k / **1.44x** @ 8k, decode **1.18x** / **1.13x** |
-| [llama31-8b](models/llama31-8b) | batch-1 serving | TTFT **1.30x** @ 1k / **1.22x** @ 8k, decode **1.03x** / **1.17x** |
-| [qwen3-30b-a3b](models/qwen3-30b-a3b) | batch-1 serving (MoE) | TTFT **1.09x** @ 1k / **1.44x** @ 8k, decode **1.41x** / **1.48x** |
-| [sdxl](models/sdxl) | one 1024×1024 image, 30 steps | image latency 709.8 → 618.4 ms, **1.15x** |
-| [whisper-large-v3](models/whisper-large-v3) | transcribe a real 30 s window | latency 267.2 → 190.3 ms, **1.40x** |
-| [bge-m3](models/bge-m3) | embed batch 64 × seq 512 | throughput 2425 → 2721 seq/s, **1.12x** |
+![Batch-1 LLM serving results: time to first token and decode throughput for Qwen3-4B, Llama-3.1-8B and Qwen3-30B-A3B at 1k and 8k-token prompts, tuned torch.compile vs Hoid kernels.](media/results-llm.svg)
+
+Batch-1 serving: [qwen3-4b](models/qwen3-4b), [llama31-8b](models/llama31-8b) and [qwen3-30b-a3b](models/qwen3-30b-a3b) (MoE).
+
+![Results beyond LLMs: end-to-end latency for SDXL and Whisper-large-v3 and embedding throughput for BGE-M3, tuned torch.compile vs Hoid kernels.](media/results-other.svg)
+
+Beyond LLMs: [sdxl](models/sdxl) (one 1024×1024 image, 30 steps), [whisper-large-v3](models/whisper-large-v3) (transcribe a real 30 s window) and [bge-m3](models/bge-m3) (embed batch 64 × seq 512).
 
 To run any model:
 

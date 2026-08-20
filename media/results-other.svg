@@ -1,0 +1,2350 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="302.4pt" viewBox="0 0 720 302.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-20T18:58:53.462400</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 302.4 
+L 720 302.4 
+L 720 0 
+L 0 0 
+z
+" style="fill: #d7cfba"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 36 235.872 
+L 227.314286 235.872 
+L 227.314286 102.816 
+L 36 102.816 
+z
+" style="fill: #d7cfba"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <!-- 1024² IMAGE · 30 STEPS -->
+      <g style="fill: #26241d" transform="translate(82.83394 251.2075) scale(0.085 -0.085)">
+       <defs>
+        <path id="JuliusSansOne-Regular-14" d="M 1190 4576 
+L 1190 0 
+L 883 0 
+L 883 4186 
+L 160 3802 
+L 51 4000 
+L 998 4576 
+L 1190 4576 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-13" d="M 2099 -77 
+Q 1389 -77 950 560 
+Q 512 1197 512 2301 
+Q 512 3405 931 4029 
+Q 1350 4653 2099 4653 
+Q 2848 4653 3264 4029 
+Q 3680 3405 3680 2301 
+Q 3680 1197 3245 560 
+Q 2810 -77 2099 -77 
+z
+M 1177 3827 
+Q 845 3283 845 2291 
+Q 845 1299 1177 752 
+Q 1510 205 2102 205 
+Q 2694 205 3020 752 
+Q 3347 1299 3347 2291 
+Q 3347 3283 3020 3827 
+Q 2694 4371 2102 4371 
+Q 1510 4371 1177 3827 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-15" d="M 448 0 
+L 448 250 
+Q 1574 1190 2240 2016 
+Q 2906 2842 2906 3398 
+Q 2906 3955 2640 4163 
+Q 2374 4371 1836 4371 
+Q 1299 4371 736 4173 
+L 659 4429 
+Q 1286 4653 1884 4653 
+Q 2483 4653 2860 4365 
+Q 3238 4077 3238 3440 
+Q 3238 2803 2611 1984 
+Q 1984 1165 928 262 
+L 3482 262 
+L 3482 0 
+L 448 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-17" d="M 2355 0 
+L 2355 1472 
+L 218 1472 
+L 218 1709 
+L 2445 4614 
+L 2662 4614 
+L 2662 1754 
+L 3392 1754 
+L 3392 1472 
+L 2662 1472 
+L 2662 0 
+L 2355 0 
+z
+M 2355 1754 
+L 2355 4077 
+L 563 1754 
+L 2355 1754 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-74" d="M 384 1875 
+L 384 2106 
+Q 1792 3277 1792 3885 
+Q 1792 4154 1657 4259 
+Q 1523 4365 1212 4365 
+Q 902 4365 576 4230 
+L 493 4499 
+Q 902 4640 1267 4640 
+Q 2093 4640 2093 3885 
+Q 2093 3168 883 2144 
+L 2304 2144 
+L 2304 1875 
+L 384 1875 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-3" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-2c" d="M 845 0 
+L 845 4576 
+L 1152 4576 
+L 1152 0 
+L 845 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-30" d="M 3008 237 
+L 2835 237 
+L 1498 3475 
+Q 1382 3744 1312 3949 
+L 1248 3462 
+L 723 0 
+L 410 0 
+L 1165 4614 
+L 1344 4614 
+L 2771 1222 
+Q 2880 986 2944 774 
+Q 2963 845 3142 1216 
+L 4736 4614 
+L 4909 4614 
+L 5606 0 
+L 5286 0 
+L 4787 3475 
+Q 4736 3802 4736 3968 
+Q 4730 3962 4707 3907 
+Q 4685 3853 4630 3728 
+Q 4576 3603 4518 3469 
+L 3008 237 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-24" d="M 1088 1587 
+L 429 0 
+L 102 0 
+L 2029 4608 
+L 2208 4608 
+L 4141 0 
+L 3795 0 
+L 3136 1587 
+L 1088 1587 
+z
+M 2099 4096 
+Q 2093 4090 2074 4019 
+Q 1984 3744 1901 3552 
+L 1197 1850 
+L 3027 1850 
+L 2323 3546 
+Q 2099 4032 2099 4096 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-2a" d="M 2810 4371 
+Q 1971 4371 1440 3769 
+Q 909 3168 909 2294 
+Q 909 1421 1510 813 
+Q 2112 205 2976 205 
+Q 3718 205 4211 410 
+L 4211 2291 
+L 4518 2291 
+L 4518 269 
+Q 3962 -77 2960 -77 
+Q 1958 -77 1267 611 
+Q 576 1299 576 2294 
+Q 576 3290 1203 3971 
+Q 1830 4653 2810 4653 
+Q 3578 4653 4365 4397 
+L 4282 4141 
+Q 3514 4371 2810 4371 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-28" d="M 845 0 
+L 845 4576 
+L 2970 4576 
+L 2970 4307 
+L 1152 4307 
+L 1152 2624 
+L 2797 2624 
+L 2797 2362 
+L 1152 2362 
+L 1152 269 
+L 3040 269 
+L 3040 0 
+L 845 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-79" d="M 512 2310 
+L 512 2650 
+L 851 2650 
+L 851 2310 
+L 512 2310 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-16" d="M 563 4422 
+Q 1190 4659 1724 4659 
+Q 2259 4659 2592 4406 
+Q 2925 4154 2925 3776 
+Q 2925 3398 2678 3091 
+Q 2432 2784 2086 2598 
+Q 2560 2470 2867 2166 
+Q 3174 1862 3174 1382 
+Q 3174 749 2700 326 
+Q 2227 -96 1555 -96 
+Q 883 -96 346 173 
+L 448 410 
+Q 883 186 1497 186 
+Q 2112 186 2477 522 
+Q 2842 858 2842 1382 
+Q 2842 1722 2592 1971 
+Q 2342 2221 2016 2329 
+Q 1690 2438 1376 2438 
+Q 1357 2438 1338 2438 
+L 1338 2656 
+Q 1805 2682 2201 3024 
+Q 2598 3366 2598 3744 
+Q 2598 4026 2358 4202 
+Q 2118 4378 1651 4378 
+Q 1184 4378 634 4186 
+L 563 4422 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-36" d="M 2822 4173 
+Q 2355 4371 1894 4371 
+Q 960 4371 960 3680 
+Q 960 3379 1171 3120 
+Q 1382 2861 1683 2659 
+Q 1984 2458 2285 2246 
+Q 2586 2035 2797 1740 
+Q 3008 1446 3008 1101 
+Q 3008 518 2617 220 
+Q 2227 -77 1539 -77 
+Q 851 -77 365 275 
+L 518 506 
+Q 979 205 1529 205 
+Q 2080 205 2374 425 
+Q 2669 646 2669 1062 
+Q 2669 1350 2457 1609 
+Q 2246 1869 1945 2077 
+Q 1645 2285 1344 2502 
+Q 1043 2720 832 3021 
+Q 621 3322 621 3667 
+Q 621 4122 957 4387 
+Q 1293 4653 1865 4653 
+Q 2438 4653 2931 4422 
+L 2822 4173 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-37" d="M 1690 4307 
+L 141 4307 
+L 141 4576 
+L 3546 4576 
+L 3546 4307 
+L 1997 4307 
+L 1997 0 
+L 1690 0 
+L 1690 4307 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-33" d="M 845 0 
+L 845 4550 
+Q 1376 4602 1875 4602 
+Q 2547 4602 2953 4288 
+Q 3360 3974 3360 3344 
+Q 3360 2714 2806 2307 
+Q 2253 1901 1485 1901 
+Q 1453 1901 1414 1901 
+L 1414 2112 
+Q 1440 2112 1459 2112 
+Q 2093 2112 2560 2445 
+Q 3027 2778 3027 3312 
+Q 3027 3846 2700 4086 
+Q 2374 4326 1824 4326 
+Q 1536 4326 1152 4301 
+L 1152 0 
+L 845 0 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#JuliusSansOne-Regular-14"/>
+       <use xlink:href="#JuliusSansOne-Regular-13" transform="translate(31.796875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-15" transform="translate(95.796875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-17" transform="translate(157.796875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-74" transform="translate(212.59375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(254.59375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(290.59375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-30" transform="translate(321.796875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(415.796875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-2a" transform="translate(481.09375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(563.296875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(616.796875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-79" transform="translate(652.796875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(674.09375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-16" transform="translate(710.09375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-13" transform="translate(768.6875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(834.1875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(870.1875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(924.890625 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(982.484375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-33" transform="translate(1035.984375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(1094.078125 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 36 235.872 
+L 227.314286 235.872 
+" style="fill: none; stroke: #26241d; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 89.046234 235.872 
+L 127.309091 235.872 
+L 127.309091 137.952 
+C 127.309091 136.361376 125.902499 135.072 124.167273 135.072 
+L 92.188052 135.072 
+C 90.452826 135.072 89.046234 136.361376 89.046234 137.952 
+z
+" clip-path="url(#p06a9cc7e70)" style="fill: #d7cfba; stroke: #26241d; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 136.005195 235.872 
+L 174.268052 235.872 
+L 174.268052 150.931882 
+C 174.268052 149.341258 172.86146 148.051882 171.126234 148.051882 
+L 139.147013 148.051882 
+C 137.411787 148.051882 136.005195 149.341258 136.005195 150.931882 
+z
+" clip-path="url(#p06a9cc7e70)" style="fill: #e57f45"/>
+   </g>
+   <g id="text_2">
+    <!-- 709.8 -->
+    <g style="fill: #26241d" transform="translate(98.11778 131.118) scale(0.085 -0.085)">
+     <defs>
+      <path id="JuliusSansOne-Regular-1a" d="M 448 4294 
+L 448 4576 
+L 3046 4576 
+L 3046 4358 
+L 1210 0 
+L 870 0 
+L 2688 4294 
+L 448 4294 
+z
+" transform="scale(0.015625)"/>
+      <path id="JuliusSansOne-Regular-1c" d="M 3021 2874 
+Q 3021 3661 2701 4016 
+Q 2381 4371 1891 4371 
+Q 1402 4371 1088 4025 
+Q 774 3680 774 3200 
+Q 774 2720 1036 2403 
+Q 1299 2086 1737 2086 
+Q 2176 2086 2650 2317 
+L 2733 2118 
+Q 2182 1830 1628 1830 
+Q 1075 1830 761 2214 
+Q 448 2598 448 3187 
+Q 448 3776 864 4214 
+Q 1280 4653 1875 4653 
+Q 2477 4653 2886 4288 
+Q 3354 3866 3354 2874 
+Q 3354 2400 3219 1968 
+Q 3085 1536 2899 1238 
+Q 2714 941 2422 649 
+Q 2131 358 1916 195 
+Q 1702 32 1414 -160 
+L 1280 45 
+Q 1613 262 1869 483 
+Q 2125 704 2413 1050 
+Q 3021 1792 3021 2874 
+z
+" transform="scale(0.015625)"/>
+      <path id="JuliusSansOne-Regular-11" d="M 192 0 
+L 192 339 
+L 531 339 
+L 531 0 
+L 192 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="JuliusSansOne-Regular-1b" d="M 749 3584 
+Q 749 4058 1078 4355 
+Q 1408 4653 1939 4653 
+Q 2470 4653 2755 4361 
+Q 3040 4070 3040 3680 
+Q 3040 3290 2809 3034 
+Q 2579 2778 2144 2522 
+Q 2656 2221 2947 1913 
+Q 3238 1606 3238 1190 
+Q 3238 653 2857 288 
+Q 2477 -77 1878 -77 
+Q 1280 -77 877 227 
+Q 474 531 474 1052 
+Q 474 1574 758 1888 
+Q 1043 2202 1555 2502 
+Q 1171 2739 960 2992 
+Q 749 3245 749 3584 
+z
+M 2906 1190 
+Q 2906 1542 2534 1850 
+Q 2214 2118 1824 2342 
+Q 1062 1907 883 1504 
+Q 806 1318 806 1101 
+Q 806 653 1104 429 
+Q 1402 205 1878 205 
+Q 2355 205 2630 480 
+Q 2906 755 2906 1190 
+z
+M 2733 3658 
+Q 2733 3962 2531 4166 
+Q 2330 4371 1930 4371 
+Q 1530 4371 1293 4160 
+Q 1056 3949 1056 3629 
+Q 1056 3309 1261 3110 
+Q 1466 2912 1869 2682 
+Q 2298 2925 2515 3139 
+Q 2733 3354 2733 3658 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#JuliusSansOne-Regular-1a"/>
+     <use xlink:href="#JuliusSansOne-Regular-13" transform="translate(50.90625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-1c" transform="translate(116.40625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-11" transform="translate(167.40625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-1b" transform="translate(178.703125 0)"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- 618.4 -->
+    <g style="fill: #26241d" transform="translate(146.007756 144.097882) scale(0.085 -0.085)">
+     <defs>
+      <path id="JuliusSansOne-Regular-19" d="M 845 1702 
+Q 845 915 1165 560 
+Q 1485 205 1974 205 
+Q 2464 205 2777 550 
+Q 3091 896 3091 1376 
+Q 3091 1856 2828 2160 
+Q 2566 2464 2128 2464 
+Q 1690 2464 1216 2234 
+L 1133 2432 
+Q 1683 2720 2236 2720 
+Q 2790 2720 3104 2345 
+Q 3418 1971 3418 1385 
+Q 3418 800 3002 361 
+Q 2586 -77 1990 -77 
+Q 1389 -77 979 294 
+Q 512 710 512 1702 
+Q 512 2176 646 2608 
+Q 781 3040 966 3337 
+Q 1152 3635 1443 3926 
+Q 1734 4218 1948 4381 
+Q 2163 4544 2451 4736 
+L 2586 4531 
+Q 2253 4314 1997 4093 
+Q 1741 3872 1453 3520 
+Q 845 2784 845 1702 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#JuliusSansOne-Regular-19"/>
+     <use xlink:href="#JuliusSansOne-Regular-14" transform="translate(60.40625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-1b" transform="translate(90.703125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-11" transform="translate(148.703125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-17" transform="translate(160 0)"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <!-- 1.15× -->
+    <g style="fill: #26241d" transform="translate(119.668393 119.016) scale(0.12 -0.12)">
+     <defs>
+      <path id="Aspekta-400-145" d="M 1350 3936 
+L 307 3168 
+L 307 3814 
+L 1389 4608 
+L 1914 4608 
+L 1914 0 
+L 1350 0 
+L 1350 3936 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-153" d="M 307 794 
+L 947 794 
+L 947 0 
+L 307 0 
+L 307 794 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-149" d="M 1792 -77 
+Q 1126 -77 732 291 
+Q 339 659 307 1254 
+L 870 1254 
+Q 902 877 1152 656 
+Q 1402 435 1792 435 
+Q 2234 435 2490 720 
+Q 2746 1005 2746 1472 
+Q 2746 1939 2490 2224 
+Q 2234 2509 1792 2509 
+Q 1453 2509 1254 2371 
+Q 1056 2234 922 1958 
+L 397 1958 
+L 781 4608 
+L 3136 4608 
+L 3136 4096 
+L 1229 4096 
+L 1030 2746 
+Q 1376 3021 1837 3021 
+Q 2323 3021 2659 2819 
+Q 2995 2618 3164 2269 
+Q 3334 1920 3334 1472 
+Q 3334 1030 3155 678 
+Q 2976 326 2627 124 
+Q 2278 -77 1792 -77 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-190" d="M 768 3514 
+L 1632 2656 
+L 2490 3514 
+L 2835 3168 
+L 1971 2310 
+L 2835 1446 
+L 2490 1107 
+L 1632 1965 
+L 768 1107 
+L 422 1446 
+L 1286 2310 
+L 422 3168 
+L 768 3514 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Aspekta-400-145"/>
+     <use xlink:href="#Aspekta-400-153" transform="translate(36.703125 0)"/>
+     <use xlink:href="#Aspekta-400-145" transform="translate(56.296875 0)"/>
+     <use xlink:href="#Aspekta-400-149" transform="translate(93 0)"/>
+     <use xlink:href="#Aspekta-400-190" transform="translate(148.90625 0)"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- SDXL base 1.0  ·  ms -->
+    <g style="fill: #26241d" transform="translate(36 80.72316) scale(0.105 -0.105)">
+     <defs>
+      <path id="Aspekta-400-61" d="M 2112 -77 
+Q 1286 -77 758 326 
+Q 230 730 205 1549 
+L 787 1549 
+Q 806 960 1174 697 
+Q 1542 435 2112 435 
+Q 2624 435 2934 649 
+Q 3245 864 3245 1267 
+Q 3245 1491 3139 1635 
+Q 3034 1779 2755 1894 
+Q 2477 2010 1946 2125 
+Q 1395 2240 1056 2397 
+Q 717 2554 541 2816 
+Q 365 3078 365 3488 
+Q 365 3846 569 4118 
+Q 774 4390 1129 4537 
+Q 1485 4685 1926 4685 
+Q 2835 4685 3280 4262 
+Q 3725 3840 3738 3174 
+L 3162 3174 
+Q 3130 3674 2835 3923 
+Q 2541 4173 1926 4173 
+Q 1485 4173 1216 3987 
+Q 947 3802 947 3488 
+Q 947 3251 1033 3107 
+Q 1120 2963 1379 2848 
+Q 1638 2733 2170 2624 
+Q 2829 2490 3187 2301 
+Q 3546 2112 3686 1865 
+Q 3827 1619 3827 1267 
+Q 3827 864 3612 560 
+Q 3398 256 3011 89 
+Q 2624 -77 2112 -77 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-17" d="M 435 4608 
+L 1952 4608 
+Q 2688 4608 3197 4304 
+Q 3706 4000 3958 3481 
+Q 4211 2963 4211 2304 
+Q 4211 1645 3958 1126 
+Q 3706 608 3197 304 
+Q 2688 0 1952 0 
+L 435 0 
+L 435 4608 
+z
+M 1952 512 
+Q 2784 512 3203 1005 
+Q 3622 1498 3622 2304 
+Q 3622 3110 3203 3603 
+Q 2784 4096 1952 4096 
+L 998 4096 
+L 998 512 
+L 1952 512 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-7d" d="M 2080 1894 
+L 749 0 
+L 115 0 
+L 1760 2349 
+L 179 4608 
+L 838 4608 
+L 2093 2822 
+L 3341 4608 
+L 3974 4608 
+L 2406 2368 
+L 4064 0 
+L 3405 0 
+L 2080 1894 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-42" d="M 435 4608 
+L 998 4608 
+L 998 512 
+L 3315 512 
+L 3315 0 
+L 435 0 
+L 435 4608 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-2" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-a3" d="M 397 4608 
+L 934 4608 
+L 934 2854 
+Q 1114 3117 1392 3261 
+Q 1670 3405 2035 3405 
+Q 2522 3405 2870 3181 
+Q 3219 2957 3401 2563 
+Q 3584 2170 3584 1664 
+Q 3584 1158 3401 764 
+Q 3219 371 2870 147 
+Q 2522 -77 2035 -77 
+Q 1658 -77 1376 76 
+Q 1094 230 909 512 
+L 909 0 
+L 397 0 
+L 397 4608 
+z
+M 1971 410 
+Q 2483 410 2752 752 
+Q 3021 1094 3021 1664 
+Q 3021 2234 2752 2576 
+Q 2483 2918 1971 2918 
+Q 1459 2918 1190 2576 
+Q 922 2234 922 1664 
+Q 922 1094 1190 752 
+Q 1459 410 1971 410 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-97" d="M 2470 416 
+Q 2086 -77 1408 -77 
+Q 845 -77 525 179 
+Q 205 435 205 902 
+Q 205 1331 512 1580 
+Q 819 1830 1402 1939 
+L 2445 2138 
+L 2445 2394 
+Q 2445 2682 2259 2806 
+Q 2074 2931 1715 2931 
+Q 1363 2931 1120 2790 
+Q 877 2650 858 2304 
+L 320 2304 
+Q 339 2867 732 3136 
+Q 1126 3405 1715 3405 
+Q 2342 3405 2656 3152 
+Q 2970 2899 2970 2445 
+L 2970 0 
+L 2470 0 
+L 2470 416 
+z
+M 1434 397 
+Q 1690 397 1920 496 
+Q 2150 595 2297 803 
+Q 2445 1011 2445 1318 
+L 2445 1683 
+L 1478 1485 
+Q 1107 1408 934 1293 
+Q 762 1178 762 915 
+Q 762 672 928 534 
+Q 1094 397 1434 397 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-f6" d="M 1574 -77 
+Q 947 -77 566 214 
+Q 186 506 154 1088 
+L 698 1088 
+Q 736 717 950 553 
+Q 1165 390 1574 390 
+Q 1946 390 2154 521 
+Q 2362 653 2362 890 
+Q 2362 1050 2304 1142 
+Q 2246 1235 2067 1305 
+Q 1888 1376 1523 1434 
+Q 1030 1517 752 1654 
+Q 474 1792 365 1984 
+Q 256 2176 256 2458 
+Q 256 2886 598 3145 
+Q 941 3405 1478 3405 
+Q 2112 3405 2473 3117 
+Q 2835 2829 2842 2304 
+L 2304 2304 
+Q 2291 2656 2073 2797 
+Q 1856 2938 1478 2938 
+Q 1184 2938 989 2813 
+Q 794 2688 794 2464 
+Q 794 2304 864 2211 
+Q 934 2118 1116 2054 
+Q 1299 1990 1658 1926 
+Q 2144 1843 2413 1715 
+Q 2682 1587 2794 1398 
+Q 2906 1210 2906 922 
+Q 2906 454 2534 188 
+Q 2163 -77 1574 -77 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-af" d="M 1798 -77 
+Q 1338 -77 982 147 
+Q 627 371 435 768 
+Q 243 1165 243 1664 
+Q 243 2163 435 2560 
+Q 627 2957 982 3181 
+Q 1338 3405 1798 3405 
+Q 2259 3405 2614 3181 
+Q 2970 2957 3162 2560 
+Q 3354 2163 3354 1664 
+L 3354 1472 
+L 813 1472 
+Q 858 986 1114 698 
+Q 1370 410 1798 410 
+Q 2125 410 2368 570 
+Q 2611 730 2726 1011 
+L 3283 1011 
+Q 3123 512 2729 217 
+Q 2336 -77 1798 -77 
+z
+M 2771 1958 
+Q 2707 2400 2457 2659 
+Q 2208 2918 1798 2918 
+Q 1389 2918 1139 2659 
+Q 890 2400 826 1958 
+L 2771 1958 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-144" d="M 1926 -77 
+Q 1082 -77 701 556 
+Q 320 1190 320 2304 
+Q 320 3418 701 4051 
+Q 1082 4685 1926 4685 
+Q 2771 4685 3152 4051 
+Q 3533 3418 3533 2304 
+Q 3533 1190 3152 556 
+Q 2771 -77 1926 -77 
+z
+M 1926 435 
+Q 2477 435 2710 918 
+Q 2944 1402 2944 2304 
+Q 2944 3206 2710 3689 
+Q 2477 4173 1926 4173 
+Q 1376 4173 1142 3689 
+Q 909 3206 909 2304 
+Q 909 1402 1142 918 
+Q 1376 435 1926 435 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-15c" d="M 307 2701 
+L 947 2701 
+L 947 1907 
+L 307 1907 
+L 307 2701 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-db" d="M 4557 2138 
+Q 4557 2490 4377 2704 
+Q 4198 2918 3878 2918 
+Q 3584 2918 3299 2697 
+Q 3014 2477 3014 1862 
+L 3014 0 
+L 2477 0 
+L 2477 2138 
+Q 2477 2490 2297 2704 
+Q 2118 2918 1798 2918 
+Q 1504 2918 1219 2697 
+Q 934 2477 934 1862 
+L 934 0 
+L 397 0 
+L 397 3328 
+L 909 3328 
+L 909 2854 
+Q 1235 3405 1901 3405 
+Q 2272 3405 2521 3229 
+Q 2771 3053 2899 2758 
+Q 3059 3053 3331 3229 
+Q 3603 3405 3981 3405 
+Q 4346 3405 4598 3229 
+Q 4851 3053 4972 2774 
+Q 5094 2496 5094 2189 
+L 5094 0 
+L 4557 0 
+L 4557 2138 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Aspekta-400-61"/>
+     <use xlink:href="#Aspekta-400-17" transform="translate(62.59375 0)"/>
+     <use xlink:href="#Aspekta-400-7d" transform="translate(132.1875 0)"/>
+     <use xlink:href="#Aspekta-400-42" transform="translate(197.484375 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(251.484375 0)"/>
+     <use xlink:href="#Aspekta-400-a3" transform="translate(270.890625 0)"/>
+     <use xlink:href="#Aspekta-400-97" transform="translate(330.6875 0)"/>
+     <use xlink:href="#Aspekta-400-f6" transform="translate(381.890625 0)"/>
+     <use xlink:href="#Aspekta-400-af" transform="translate(429.6875 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(485.890625 0)"/>
+     <use xlink:href="#Aspekta-400-145" transform="translate(505.296875 0)"/>
+     <use xlink:href="#Aspekta-400-153" transform="translate(542 0)"/>
+     <use xlink:href="#Aspekta-400-144" transform="translate(561.59375 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(621.796875 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(641.203125 0)"/>
+     <use xlink:href="#Aspekta-400-15c" transform="translate(660.609375 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(680.203125 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(699.609375 0)"/>
+     <use xlink:href="#Aspekta-400-db" transform="translate(719.015625 0)"/>
+     <use xlink:href="#Aspekta-400-f6" transform="translate(804.8125 0)"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- LOWER IS BETTER -->
+    <g style="fill: #26241d" transform="translate(36 94.4532) scale(0.075 -0.075)">
+     <defs>
+      <path id="JuliusSansOne-Regular-2f" d="M 845 0 
+L 845 4576 
+L 1152 4576 
+L 1152 282 
+L 3258 282 
+L 3258 0 
+L 845 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="JuliusSansOne-Regular-32" d="M 1213 608 
+Q 576 1293 576 2291 
+Q 576 3290 1213 3971 
+Q 1850 4653 2822 4653 
+Q 3795 4653 4435 3971 
+Q 5075 3290 5075 2291 
+Q 5075 1293 4435 608 
+Q 3795 -77 2822 -77 
+Q 1850 -77 1213 608 
+z
+M 1440 3772 
+Q 909 3174 909 2291 
+Q 909 1408 1443 806 
+Q 1978 205 2826 205 
+Q 3674 205 4208 806 
+Q 4742 1408 4742 2291 
+Q 4742 3174 4208 3772 
+Q 3674 4371 2822 4371 
+Q 1971 4371 1440 3772 
+z
+" transform="scale(0.015625)"/>
+      <path id="JuliusSansOne-Regular-3a" d="M 2029 1107 
+L 3354 4486 
+L 3539 4486 
+L 4698 1082 
+Q 4832 678 4877 499 
+Q 4928 710 5056 1075 
+L 6234 4576 
+L 6554 4576 
+L 4960 -38 
+L 4781 -38 
+L 3597 3354 
+Q 3571 3437 3542 3520 
+Q 3514 3603 3494 3667 
+Q 3475 3731 3456 3776 
+L 3430 3853 
+Q 3424 3885 3424 3891 
+Q 3347 3661 3226 3360 
+L 1888 -38 
+L 1709 -38 
+L 102 4576 
+L 442 4576 
+L 1613 1133 
+Q 1696 902 1750 716 
+Q 1805 531 1811 512 
+Q 1843 659 2029 1107 
+z
+" transform="scale(0.015625)"/>
+      <path id="JuliusSansOne-Regular-35" d="M 845 0 
+L 845 4557 
+Q 1453 4602 1862 4602 
+Q 2515 4602 2937 4266 
+Q 3360 3930 3360 3315 
+Q 3360 2899 3117 2540 
+Q 2874 2182 2573 1971 
+Q 2810 1645 3158 1193 
+Q 3507 742 3610 627 
+Q 4000 211 4493 154 
+L 4486 -51 
+Q 4096 -45 3853 67 
+Q 3610 179 3389 409 
+Q 3168 640 2291 1843 
+Q 1664 1843 1152 1882 
+L 1152 0 
+L 845 0 
+z
+M 2106 2099 
+Q 2387 2099 2707 2470 
+Q 3027 2842 3027 3331 
+Q 3027 3821 2697 4073 
+Q 2368 4326 1824 4326 
+Q 1536 4326 1152 4301 
+L 1152 2131 
+Q 1664 2099 2106 2099 
+z
+" transform="scale(0.015625)"/>
+      <path id="JuliusSansOne-Regular-25" d="M 845 4563 
+Q 1344 4602 1865 4602 
+Q 2387 4602 2768 4346 
+Q 3149 4090 3149 3603 
+Q 3149 3238 2947 2924 
+Q 2746 2611 2464 2451 
+Q 2918 2310 3225 1964 
+Q 3533 1619 3533 1190 
+Q 3533 589 3152 275 
+Q 2771 -38 2108 -38 
+Q 1446 -38 845 13 
+L 845 4563 
+z
+M 2144 237 
+Q 2611 237 2912 496 
+Q 3213 755 3213 1158 
+Q 3213 1562 2921 1856 
+Q 2630 2150 2125 2259 
+Q 1888 2310 1577 2310 
+Q 1267 2310 1152 2310 
+L 1152 269 
+Q 1434 237 2144 237 
+z
+M 2842 3613 
+Q 2842 3962 2550 4154 
+Q 2259 4346 1897 4346 
+Q 1536 4346 1152 4320 
+L 1152 2573 
+Q 1235 2573 1465 2573 
+Q 1696 2573 2144 2534 
+Q 2432 2688 2637 2976 
+Q 2842 3264 2842 3613 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#JuliusSansOne-Regular-2f"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(48.6875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3a" transform="translate(136.1875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(240.1875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(293.6875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(359.484375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(395.484375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(426.6875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(481.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-25" transform="translate(517.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(580.296875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(633.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(691.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(748.984375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(802.484375 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 275.142857 235.872 
+L 466.457143 235.872 
+L 466.457143 102.816 
+L 275.142857 102.816 
+z
+" style="fill: #d7cfba"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_7">
+      <!-- 30 S TRANSCRIPTION -->
+      <g style="fill: #26241d" transform="translate(325.032812 251.2075) scale(0.085 -0.085)">
+       <defs>
+        <path id="JuliusSansOne-Regular-31" d="M 1139 3846 
+L 1152 3302 
+L 1152 0 
+L 845 0 
+L 845 4614 
+L 986 4614 
+L 4000 1139 
+Q 4307 774 4474 557 
+Q 4448 864 4448 1261 
+L 4448 4576 
+L 4755 4576 
+L 4755 -38 
+L 4614 -38 
+L 1542 3501 
+Q 1222 3866 1133 3987 
+L 1139 3846 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-26" d="M 3008 -77 
+Q 2010 -77 1293 604 
+Q 576 1286 576 2288 
+Q 576 3290 1203 3971 
+Q 1830 4653 2810 4653 
+Q 3578 4653 4365 4397 
+L 4282 4141 
+Q 3514 4371 2810 4371 
+Q 1971 4371 1440 3769 
+Q 909 3168 909 2297 
+Q 909 1427 1526 816 
+Q 2144 205 3008 205 
+Q 3763 205 4314 435 
+L 4410 218 
+Q 4166 77 3772 0 
+Q 3379 -77 3008 -77 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#JuliusSansOne-Regular-16"/>
+       <use xlink:href="#JuliusSansOne-Regular-13" transform="translate(58.59375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(124.09375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(160.09375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(214.796875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(250.796875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(308.390625 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(374.1875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(440.484375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(527.984375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(582.6875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(657.1875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(722.984375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-33" transform="translate(754.1875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(812.28125 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(869.875 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(901.078125 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(989.375 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4"/>
+   <g id="patch_7">
+    <path d="M 275.142857 235.872 
+L 466.457143 235.872 
+" style="fill: none; stroke: #26241d; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 328.189091 235.872 
+L 366.451948 235.872 
+L 366.451948 137.952 
+C 366.451948 136.361376 365.045356 135.072 363.31013 135.072 
+L 331.330909 135.072 
+C 329.595683 135.072 328.189091 136.361376 328.189091 137.952 
+z
+" clip-path="url(#pbe2233a311)" style="fill: #d7cfba; stroke: #26241d; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 375.148052 235.872 
+L 413.410909 235.872 
+L 413.410909 166.96218 
+C 413.410909 165.371556 412.004317 164.08218 410.269091 164.08218 
+L 378.28987 164.08218 
+C 376.554644 164.08218 375.148052 165.371556 375.148052 166.96218 
+z
+" clip-path="url(#pbe2233a311)" style="fill: #e57f45"/>
+   </g>
+   <g id="text_8">
+    <!-- 267.2 -->
+    <g style="fill: #26241d" transform="translate(337.515637 131.118) scale(0.085 -0.085)">
+     <use xlink:href="#JuliusSansOne-Regular-15"/>
+     <use xlink:href="#JuliusSansOne-Regular-19" transform="translate(62 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-1a" transform="translate(117.703125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-11" transform="translate(157.40625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-15" transform="translate(168.703125 0)"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <!-- 190.3 -->
+    <g style="fill: #26241d" transform="translate(384.670496 160.12818) scale(0.085 -0.085)">
+     <use xlink:href="#JuliusSansOne-Regular-14"/>
+     <use xlink:href="#JuliusSansOne-Regular-1c" transform="translate(30.296875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-13" transform="translate(90.703125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-11" transform="translate(156.203125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-16" transform="translate(167.5 0)"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <!-- 1.40× -->
+    <g style="fill: #26241d" transform="translate(357.155625 119.016) scale(0.12 -0.12)">
+     <defs>
+      <path id="Aspekta-400-148" d="M 179 1587 
+L 2458 4608 
+L 3059 4608 
+L 3059 1562 
+L 3699 1562 
+L 3699 1050 
+L 3059 1050 
+L 3059 0 
+L 2496 0 
+L 2496 1050 
+L 179 1050 
+L 179 1587 
+z
+M 2496 1562 
+L 2496 3866 
+L 781 1562 
+L 2496 1562 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Aspekta-400-145"/>
+     <use xlink:href="#Aspekta-400-153" transform="translate(36.703125 0)"/>
+     <use xlink:href="#Aspekta-400-148" transform="translate(56.296875 0)"/>
+     <use xlink:href="#Aspekta-400-144" transform="translate(116.296875 0)"/>
+     <use xlink:href="#Aspekta-400-190" transform="translate(176.5 0)"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <!-- Whisper-large-v3  ·  ms -->
+    <g style="fill: #26241d" transform="translate(275.142857 80.72316) scale(0.105 -0.105)">
+     <defs>
+      <path id="Aspekta-400-77" d="M 3142 3846 
+L 2080 0 
+L 1453 0 
+L 115 4608 
+L 704 4608 
+L 1766 832 
+L 2829 4608 
+L 3456 4608 
+L 4518 832 
+L 5581 4608 
+L 6170 4608 
+L 4832 0 
+L 4205 0 
+L 3142 3846 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-c2" d="M 397 4608 
+L 934 4608 
+L 934 2880 
+Q 1325 3405 1978 3405 
+Q 2381 3405 2646 3232 
+Q 2912 3059 3037 2780 
+Q 3162 2502 3162 2189 
+L 3162 0 
+L 2630 0 
+L 2630 2138 
+Q 2630 2496 2438 2707 
+Q 2246 2918 1875 2918 
+Q 1702 2918 1488 2841 
+Q 1274 2765 1104 2528 
+Q 934 2291 934 1862 
+L 934 0 
+L 397 0 
+L 397 4608 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-c6" d="M 384 3328 
+L 922 3328 
+L 922 0 
+L 384 0 
+L 384 3328 
+z
+M 384 4608 
+L 922 4608 
+L 922 3955 
+L 384 3955 
+L 384 4608 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-ef" d="M 909 3328 
+L 909 2816 
+Q 1094 3098 1376 3251 
+Q 1658 3405 2035 3405 
+Q 2522 3405 2870 3181 
+Q 3219 2957 3401 2563 
+Q 3584 2170 3584 1664 
+Q 3584 1158 3401 764 
+Q 3219 371 2870 147 
+Q 2522 -77 2035 -77 
+Q 1670 -77 1392 67 
+Q 1114 211 934 474 
+L 934 -1280 
+L 397 -1280 
+L 397 3328 
+L 909 3328 
+z
+M 1971 2918 
+Q 1459 2918 1190 2576 
+Q 922 2234 922 1664 
+Q 922 1094 1190 752 
+Q 1459 410 1971 410 
+Q 2483 410 2752 752 
+Q 3021 1094 3021 1664 
+Q 3021 2234 2752 2576 
+Q 2483 2918 1971 2918 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-f2" d="M 397 3328 
+L 909 3328 
+L 909 2771 
+Q 1094 3104 1363 3235 
+Q 1632 3366 1971 3366 
+L 2221 3366 
+L 2221 2848 
+L 1958 2848 
+Q 934 2848 934 1779 
+L 934 0 
+L 397 0 
+L 397 3328 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-161" d="M 269 2099 
+L 2163 2099 
+L 2163 1613 
+L 269 1613 
+L 269 2099 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-d7" d="M 934 4608 
+L 934 819 
+Q 934 640 1017 557 
+Q 1101 474 1280 474 
+L 1728 474 
+L 1728 0 
+L 1178 0 
+Q 755 0 576 182 
+Q 397 365 397 755 
+L 397 4608 
+L 934 4608 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-bc" d="M 1856 -1357 
+Q 1203 -1357 838 -1069 
+Q 474 -781 416 -262 
+L 947 -262 
+Q 1005 -595 1235 -745 
+Q 1466 -896 1856 -896 
+Q 2893 -896 2893 90 
+L 2893 474 
+Q 2714 211 2435 67 
+Q 2157 -77 1792 -77 
+Q 1306 -77 957 147 
+Q 608 371 425 764 
+Q 243 1158 243 1664 
+Q 243 2170 425 2563 
+Q 608 2957 957 3181 
+Q 1306 3405 1792 3405 
+Q 2170 3405 2451 3251 
+Q 2733 3098 2918 2816 
+L 2918 3328 
+L 3430 3328 
+L 3430 90 
+Q 3430 -640 2995 -998 
+Q 2560 -1357 1856 -1357 
+z
+M 1856 410 
+Q 2368 410 2637 752 
+Q 2906 1094 2906 1664 
+Q 2906 2234 2637 2576 
+Q 2368 2918 1856 2918 
+Q 1344 2918 1075 2576 
+Q 806 2234 806 1664 
+Q 806 1094 1075 752 
+Q 1344 410 1856 410 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-10b" d="M 51 3328 
+L 634 3328 
+L 1658 621 
+L 2682 3328 
+L 3264 3328 
+L 1933 0 
+L 1382 0 
+L 51 3328 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-147" d="M 1875 -77 
+Q 1120 -77 720 300 
+Q 320 678 307 1370 
+L 870 1370 
+Q 883 909 1123 672 
+Q 1363 435 1875 435 
+Q 2330 435 2595 665 
+Q 2861 896 2861 1280 
+Q 2861 1722 2579 1907 
+Q 2298 2093 1741 2093 
+L 1370 2093 
+L 1370 2592 
+L 1696 2592 
+Q 2189 2592 2461 2825 
+Q 2733 3059 2733 3437 
+Q 2733 3782 2483 3977 
+Q 2234 4173 1837 4173 
+Q 1370 4173 1139 3936 
+Q 909 3699 896 3238 
+L 333 3238 
+Q 365 3930 736 4307 
+Q 1107 4685 1850 4685 
+Q 2291 4685 2617 4515 
+Q 2944 4346 3120 4061 
+Q 3296 3776 3296 3437 
+Q 3296 3142 3120 2851 
+Q 2944 2560 2592 2387 
+Q 3008 2253 3216 1968 
+Q 3424 1683 3424 1280 
+Q 3424 890 3235 582 
+Q 3046 275 2694 99 
+Q 2342 -77 1875 -77 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Aspekta-400-77"/>
+     <use xlink:href="#Aspekta-400-c2" transform="translate(98.203125 0)"/>
+     <use xlink:href="#Aspekta-400-c6" transform="translate(153.796875 0)"/>
+     <use xlink:href="#Aspekta-400-f6" transform="translate(174.203125 0)"/>
+     <use xlink:href="#Aspekta-400-ef" transform="translate(222 0)"/>
+     <use xlink:href="#Aspekta-400-af" transform="translate(281.796875 0)"/>
+     <use xlink:href="#Aspekta-400-f2" transform="translate(338 0)"/>
+     <use xlink:href="#Aspekta-400-161" transform="translate(375.5 0)"/>
+     <use xlink:href="#Aspekta-400-d7" transform="translate(413.5 0)"/>
+     <use xlink:href="#Aspekta-400-97" transform="translate(443.296875 0)"/>
+     <use xlink:href="#Aspekta-400-f2" transform="translate(494.5 0)"/>
+     <use xlink:href="#Aspekta-400-bc" transform="translate(532 0)"/>
+     <use xlink:href="#Aspekta-400-af" transform="translate(591.796875 0)"/>
+     <use xlink:href="#Aspekta-400-161" transform="translate(648 0)"/>
+     <use xlink:href="#Aspekta-400-10b" transform="translate(686 0)"/>
+     <use xlink:href="#Aspekta-400-147" transform="translate(737.796875 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(795.09375 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(814.5 0)"/>
+     <use xlink:href="#Aspekta-400-15c" transform="translate(833.90625 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(853.5 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(872.90625 0)"/>
+     <use xlink:href="#Aspekta-400-db" transform="translate(892.3125 0)"/>
+     <use xlink:href="#Aspekta-400-f6" transform="translate(978.109375 0)"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <!-- LOWER IS BETTER -->
+    <g style="fill: #26241d" transform="translate(275.142857 94.4532) scale(0.075 -0.075)">
+     <use xlink:href="#JuliusSansOne-Regular-2f"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(48.6875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3a" transform="translate(136.1875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(240.1875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(293.6875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(359.484375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(395.484375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(426.6875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(481.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-25" transform="translate(517.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(580.296875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(633.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(691.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(748.984375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(802.484375 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_10">
+    <path d="M 514.285714 235.872 
+L 705.6 235.872 
+L 705.6 102.816 
+L 514.285714 102.816 
+z
+" style="fill: #d7cfba"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_13">
+      <!-- EMBED 64 × 512 TOK -->
+      <g style="fill: #26241d" transform="translate(567.04774 251.2075) scale(0.085 -0.085)">
+       <defs>
+        <path id="JuliusSansOne-Regular-27" d="M 2310 224 
+Q 3213 224 3760 713 
+Q 4307 1203 4307 2188 
+Q 4307 3174 3689 3756 
+Q 3072 4339 2163 4339 
+Q 1581 4339 1152 4307 
+L 1152 275 
+Q 1568 224 2310 224 
+z
+M 2163 4621 
+Q 3219 4621 3929 3965 
+Q 4640 3309 4640 2182 
+Q 4640 1613 4457 1174 
+Q 4275 736 3955 474 
+Q 3296 -58 2310 -58 
+Q 1664 -58 845 13 
+L 845 4576 
+Q 1498 4621 2163 4621 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-99" d="M 646 3264 
+L 1670 2234 
+L 2701 3264 
+L 2899 3066 
+L 1869 2035 
+L 2899 1011 
+L 2701 813 
+L 1670 1837 
+L 646 813 
+L 448 1011 
+L 1472 2035 
+L 448 3066 
+L 646 3264 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-18" d="M 2918 4576 
+L 2918 4320 
+L 1146 4320 
+L 1069 3296 
+Q 3002 2886 3002 1440 
+Q 3002 845 2595 384 
+Q 2189 -77 1427 -77 
+Q 832 -77 410 134 
+L 512 384 
+Q 960 205 1363 205 
+Q 1766 205 2019 320 
+Q 2272 435 2406 627 
+Q 2669 992 2669 1440 
+Q 2669 2752 742 3053 
+L 870 4576 
+L 2918 4576 
+z
+" transform="scale(0.015625)"/>
+        <path id="JuliusSansOne-Regular-2e" d="M 3597 4576 
+L 1651 2362 
+Q 2042 1894 2550 1318 
+Q 3059 742 3209 608 
+Q 3360 474 3446 406 
+Q 3533 339 3712 259 
+Q 3891 179 4096 154 
+L 4090 -51 
+Q 3706 -45 3456 67 
+Q 3206 179 3020 361 
+Q 2835 544 2211 1257 
+Q 1587 1971 1274 2349 
+L 3238 4576 
+L 3597 4576 
+z
+M 1152 4576 
+L 1152 0 
+L 845 0 
+L 845 4576 
+L 1152 4576 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#JuliusSansOne-Regular-28"/>
+       <use xlink:href="#JuliusSansOne-Regular-30" transform="translate(53.5 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-25" transform="translate(147.5 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(210.40625 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(263.90625 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(345.40625 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-19" transform="translate(381.40625 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-17" transform="translate(441.8125 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(496.609375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-99" transform="translate(532.609375 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(584.90625 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-18" transform="translate(620.90625 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-14" transform="translate(677 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-15" transform="translate(707 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(769 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(805 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(859 0)"/>
+       <use xlink:href="#JuliusSansOne-Regular-2e" transform="translate(947.296875 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6"/>
+   <g id="patch_11">
+    <path d="M 514.285714 235.872 
+L 705.6 235.872 
+" style="fill: none; stroke: #26241d; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 567.331948 235.872 
+L 605.594805 235.872 
+L 605.594805 148.930988 
+C 605.594805 147.340364 604.188213 146.050988 602.452987 146.050988 
+L 570.473766 146.050988 
+C 568.73854 146.050988 567.331948 147.340364 567.331948 148.930988 
+z
+" clip-path="url(#p9d760660b9)" style="fill: #d7cfba; stroke: #26241d; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 614.290909 235.872 
+L 652.553766 235.872 
+L 652.553766 137.952 
+C 652.553766 136.361376 651.147174 135.072 649.411948 135.072 
+L 617.432727 135.072 
+C 615.697501 135.072 614.290909 136.361376 614.290909 137.952 
+z
+" clip-path="url(#p9d760660b9)" style="fill: #e57f45"/>
+   </g>
+   <g id="text_14">
+    <!-- 2,425 -->
+    <g style="fill: #26241d" transform="translate(576.055525 142.096988) scale(0.085 -0.085)">
+     <defs>
+      <path id="JuliusSansOne-Regular-f" d="M 192 339 
+L 531 339 
+L 531 26 
+L 262 -467 
+L 115 -467 
+L 192 -77 
+L 192 339 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#JuliusSansOne-Regular-15"/>
+     <use xlink:href="#JuliusSansOne-Regular-f" transform="translate(62 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-17" transform="translate(73.296875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-15" transform="translate(126.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-18" transform="translate(188.796875 0)"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <!-- 2,721 -->
+    <g style="fill: #26241d" transform="translate(624.225072 131.118) scale(0.085 -0.085)">
+     <use xlink:href="#JuliusSansOne-Regular-15"/>
+     <use xlink:href="#JuliusSansOne-Regular-f" transform="translate(62 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-1a" transform="translate(73.296875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-15" transform="translate(122.609375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-14" transform="translate(184.609375 0)"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <!-- 1.12× -->
+    <g style="fill: #26241d" transform="translate(597.984107 119.016) scale(0.12 -0.12)">
+     <defs>
+      <path id="Aspekta-400-146" d="M 307 499 
+L 2112 2278 
+Q 2400 2566 2557 2835 
+Q 2714 3104 2714 3411 
+Q 2714 3763 2474 3968 
+Q 2234 4173 1824 4173 
+Q 1389 4173 1126 3913 
+Q 864 3654 870 3155 
+L 307 3155 
+Q 314 3872 726 4278 
+Q 1139 4685 1824 4685 
+Q 2259 4685 2585 4512 
+Q 2912 4339 3088 4048 
+Q 3264 3757 3264 3411 
+Q 3264 3021 3049 2640 
+Q 2835 2259 2496 1926 
+L 1043 512 
+L 3328 512 
+L 3328 0 
+L 307 0 
+L 307 499 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Aspekta-400-145"/>
+     <use xlink:href="#Aspekta-400-153" transform="translate(36.703125 0)"/>
+     <use xlink:href="#Aspekta-400-145" transform="translate(56.296875 0)"/>
+     <use xlink:href="#Aspekta-400-146" transform="translate(93 0)"/>
+     <use xlink:href="#Aspekta-400-190" transform="translate(148.40625 0)"/>
+    </g>
+   </g>
+   <g id="text_17">
+    <!-- BGE-M3  ·  seq/s -->
+    <g style="fill: #26241d" transform="translate(514.285714 80.72316) scale(0.105 -0.105)">
+     <defs>
+      <path id="Aspekta-400-f" d="M 435 4608 
+L 2150 4608 
+Q 2931 4608 3334 4259 
+Q 3738 3910 3738 3354 
+Q 3738 3040 3603 2797 
+Q 3469 2554 3194 2400 
+Q 3565 2259 3747 1977 
+Q 3930 1696 3930 1306 
+Q 3930 717 3530 358 
+Q 3130 0 2342 0 
+L 435 0 
+L 435 4608 
+z
+M 2362 512 
+Q 2874 512 3120 717 
+Q 3366 922 3366 1306 
+Q 3366 1690 3120 1894 
+Q 2874 2099 2362 2099 
+L 998 2099 
+L 998 512 
+L 2362 512 
+z
+M 2182 2611 
+Q 2694 2611 2940 2809 
+Q 3187 3008 3187 3354 
+Q 3187 3699 2940 3897 
+Q 2694 4096 2182 4096 
+L 998 4096 
+L 998 2611 
+L 2182 2611 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-28" d="M 2438 -77 
+Q 1734 -77 1238 243 
+Q 742 563 492 1104 
+Q 243 1645 243 2304 
+Q 243 2963 492 3504 
+Q 742 4045 1238 4365 
+Q 1734 4685 2438 4685 
+Q 3008 4685 3440 4473 
+Q 3872 4262 4137 3894 
+Q 4403 3526 4486 3053 
+L 3910 3053 
+Q 3821 3546 3427 3853 
+Q 3034 4160 2438 4160 
+Q 1907 4160 1545 3913 
+Q 1184 3667 1008 3248 
+Q 832 2829 832 2304 
+Q 832 1779 1008 1360 
+Q 1184 941 1545 694 
+Q 1907 448 2438 448 
+Q 3104 448 3485 829 
+Q 3866 1210 3974 1862 
+L 2246 1862 
+L 2246 2374 
+L 4538 2374 
+L 4538 0 
+L 4051 0 
+L 4051 819 
+Q 3590 -77 2438 -77 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-1b" d="M 435 4608 
+L 3648 4608 
+L 3648 4096 
+L 998 4096 
+L 998 2662 
+L 3456 2662 
+L 3456 2150 
+L 998 2150 
+L 998 512 
+L 3622 512 
+L 3622 0 
+L 435 0 
+L 435 4608 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-46" d="M 986 3616 
+L 986 0 
+L 435 0 
+L 435 4608 
+L 1165 4608 
+L 2739 646 
+L 4314 4608 
+L 5043 4608 
+L 5043 0 
+L 4493 0 
+L 4493 3616 
+L 3002 0 
+L 2477 0 
+L 986 3616 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-f1" d="M 3430 -1280 
+L 2893 -1280 
+L 2893 474 
+Q 2714 211 2435 67 
+Q 2157 -77 1792 -77 
+Q 1306 -77 957 147 
+Q 608 371 425 764 
+Q 243 1158 243 1664 
+Q 243 2170 425 2563 
+Q 608 2957 957 3181 
+Q 1306 3405 1792 3405 
+Q 2170 3405 2451 3251 
+Q 2733 3098 2918 2816 
+L 2918 3328 
+L 3430 3328 
+L 3430 -1280 
+z
+M 1856 2918 
+Q 1344 2918 1075 2576 
+Q 806 2234 806 1664 
+Q 806 1094 1075 752 
+Q 1344 410 1856 410 
+Q 2368 410 2637 752 
+Q 2906 1094 2906 1664 
+Q 2906 2234 2637 2576 
+Q 2368 2918 1856 2918 
+z
+" transform="scale(0.015625)"/>
+      <path id="Aspekta-400-15f" d="M 1779 4608 
+L 2304 4608 
+L 627 0 
+L 102 0 
+L 1779 4608 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Aspekta-400-f"/>
+     <use xlink:href="#Aspekta-400-28" transform="translate(64.203125 0)"/>
+     <use xlink:href="#Aspekta-400-1b" transform="translate(140.90625 0)"/>
+     <use xlink:href="#Aspekta-400-161" transform="translate(200.703125 0)"/>
+     <use xlink:href="#Aspekta-400-46" transform="translate(238.703125 0)"/>
+     <use xlink:href="#Aspekta-400-147" transform="translate(324.296875 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(381.59375 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(401 0)"/>
+     <use xlink:href="#Aspekta-400-15c" transform="translate(420.40625 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(440 0)"/>
+     <use xlink:href="#Aspekta-400-2" transform="translate(459.40625 0)"/>
+     <use xlink:href="#Aspekta-400-f6" transform="translate(478.8125 0)"/>
+     <use xlink:href="#Aspekta-400-af" transform="translate(526.609375 0)"/>
+     <use xlink:href="#Aspekta-400-f1" transform="translate(582.8125 0)"/>
+     <use xlink:href="#Aspekta-400-15f" transform="translate(642.609375 0)"/>
+     <use xlink:href="#Aspekta-400-f6" transform="translate(680.203125 0)"/>
+    </g>
+   </g>
+   <g id="text_18">
+    <!-- HIGHER IS BETTER -->
+    <g style="fill: #26241d" transform="translate(514.285714 94.4532) scale(0.075 -0.075)">
+     <defs>
+      <path id="JuliusSansOne-Regular-2b" d="M 4294 0 
+L 4294 2291 
+L 1152 2291 
+L 1152 0 
+L 845 0 
+L 845 4576 
+L 1152 4576 
+L 1152 2566 
+L 4294 2566 
+L 4294 4576 
+L 4602 4576 
+L 4602 0 
+L 4294 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#JuliusSansOne-Regular-2b"/>
+     <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(85.09375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2a" transform="translate(116.296875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2b" transform="translate(198.5 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(283.59375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(337.09375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(402.890625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(438.890625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(470.09375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(524.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-25" transform="translate(560.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(623.703125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(677.203125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(734.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(792.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(845.890625 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="text_19">
+   <!-- Beyond LLMs: diffusion, speech and embeddings -->
+   <g style="fill: #26241d" transform="translate(36 24.192) scale(0.13 -0.13)">
+    <defs>
+     <path id="Aspekta-400-115" d="M 179 -806 
+L 678 -806 
+Q 896 -806 985 -723 
+Q 1075 -640 1158 -416 
+L 1318 6 
+L 51 3328 
+L 634 3328 
+L 1594 666 
+L 2554 3328 
+L 3136 3328 
+L 1664 -550 
+Q 1568 -800 1481 -947 
+Q 1395 -1094 1251 -1187 
+Q 1107 -1280 877 -1280 
+L 179 -1280 
+L 179 -806 
+z
+" transform="scale(0.015625)"/>
+     <path id="Aspekta-400-e4" d="M 1856 -77 
+Q 1370 -77 1002 147 
+Q 634 371 438 768 
+Q 243 1165 243 1664 
+Q 243 2163 438 2560 
+Q 634 2957 1002 3181 
+Q 1370 3405 1856 3405 
+Q 2342 3405 2710 3181 
+Q 3078 2957 3273 2560 
+Q 3469 2163 3469 1664 
+Q 3469 1165 3273 768 
+Q 3078 371 2710 147 
+Q 2342 -77 1856 -77 
+z
+M 1856 410 
+Q 2368 410 2637 752 
+Q 2906 1094 2906 1664 
+Q 2906 2234 2637 2576 
+Q 2368 2918 1856 2918 
+Q 1344 2918 1075 2576 
+Q 806 2234 806 1664 
+Q 806 1094 1075 752 
+Q 1344 410 1856 410 
+z
+" transform="scale(0.015625)"/>
+     <path id="Aspekta-400-de" d="M 2630 2138 
+Q 2630 2496 2438 2707 
+Q 2246 2918 1875 2918 
+Q 1702 2918 1488 2841 
+Q 1274 2765 1104 2528 
+Q 934 2291 934 1862 
+L 934 0 
+L 397 0 
+L 397 3328 
+L 909 3328 
+L 909 2848 
+Q 1088 3104 1357 3254 
+Q 1626 3405 1978 3405 
+Q 2381 3405 2646 3232 
+Q 2912 3059 3037 2780 
+Q 3162 2502 3162 2189 
+L 3162 0 
+L 2630 0 
+L 2630 2138 
+z
+" transform="scale(0.015625)"/>
+     <path id="Aspekta-400-ab" d="M 2918 0 
+L 2918 512 
+Q 2733 230 2451 76 
+Q 2170 -77 1792 -77 
+Q 1306 -77 957 147 
+Q 608 371 425 764 
+Q 243 1158 243 1664 
+Q 243 2170 425 2563 
+Q 608 2957 957 3181 
+Q 1306 3405 1792 3405 
+Q 2157 3405 2435 3261 
+Q 2714 3117 2893 2854 
+L 2893 4608 
+L 3430 4608 
+L 3430 0 
+L 2918 0 
+z
+M 1856 410 
+Q 2368 410 2637 752 
+Q 2906 1094 2906 1664 
+Q 2906 2234 2637 2576 
+Q 2368 2918 1856 2918 
+Q 1344 2918 1075 2576 
+Q 806 2234 806 1664 
+Q 806 1094 1075 752 
+Q 1344 410 1856 410 
+z
+" transform="scale(0.015625)"/>
+     <path id="Aspekta-400-155" d="M 307 3200 
+L 947 3200 
+L 947 2406 
+L 307 2406 
+L 307 3200 
+z
+M 307 794 
+L 947 794 
+L 947 0 
+L 307 0 
+L 307 794 
+z
+" transform="scale(0.015625)"/>
+     <path id="Aspekta-400-ba" d="M 730 3853 
+Q 730 4243 909 4425 
+Q 1088 4608 1510 4608 
+L 2163 4608 
+L 2163 4134 
+L 1613 4134 
+Q 1434 4134 1350 4054 
+Q 1267 3974 1267 3789 
+L 1267 3328 
+L 2163 3328 
+L 2163 2854 
+L 1267 2854 
+L 1267 0 
+L 730 0 
+L 730 2854 
+L 115 2854 
+L 115 3328 
+L 730 3328 
+L 730 3853 
+z
+" transform="scale(0.015625)"/>
+     <path id="Aspekta-400-101" d="M 928 1190 
+Q 928 832 1120 621 
+Q 1312 410 1683 410 
+Q 1856 410 2070 486 
+Q 2285 563 2454 800 
+Q 2624 1037 2624 1466 
+L 2624 3328 
+L 3162 3328 
+L 3162 0 
+L 2650 0 
+L 2650 480 
+Q 2470 224 2201 73 
+Q 1933 -77 1581 -77 
+Q 1178 -77 912 96 
+Q 646 269 521 547 
+Q 397 826 397 1139 
+L 397 3328 
+L 928 3328 
+L 928 1190 
+z
+" transform="scale(0.015625)"/>
+     <path id="Aspekta-400-154" d="M 1114 794 
+L 582 -858 
+L 128 -858 
+L 486 794 
+L 1114 794 
+z
+" transform="scale(0.015625)"/>
+     <path id="Aspekta-400-a5" d="M 1818 -77 
+Q 1357 -77 1005 147 
+Q 653 371 461 768 
+Q 269 1165 269 1664 
+Q 269 2163 461 2560 
+Q 653 2957 1005 3181 
+Q 1357 3405 1818 3405 
+Q 2419 3405 2793 3078 
+Q 3168 2752 3245 2202 
+L 2688 2202 
+Q 2618 2534 2390 2726 
+Q 2163 2918 1818 2918 
+Q 1350 2918 1091 2572 
+Q 832 2227 832 1664 
+Q 832 1101 1091 755 
+Q 1350 410 1818 410 
+Q 2163 410 2393 605 
+Q 2624 800 2688 1139 
+L 3245 1139 
+Q 3174 595 2780 259 
+Q 2387 -77 1818 -77 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#Aspekta-400-f"/>
+    <use xlink:href="#Aspekta-400-af" transform="translate(64.203125 0)"/>
+    <use xlink:href="#Aspekta-400-115" transform="translate(120.40625 0)"/>
+    <use xlink:href="#Aspekta-400-e4" transform="translate(170.203125 0)"/>
+    <use xlink:href="#Aspekta-400-de" transform="translate(228.203125 0)"/>
+    <use xlink:href="#Aspekta-400-ab" transform="translate(283.796875 0)"/>
+    <use xlink:href="#Aspekta-400-2" transform="translate(343.59375 0)"/>
+    <use xlink:href="#Aspekta-400-42" transform="translate(363 0)"/>
+    <use xlink:href="#Aspekta-400-42" transform="translate(417 0)"/>
+    <use xlink:href="#Aspekta-400-46" transform="translate(471 0)"/>
+    <use xlink:href="#Aspekta-400-f6" transform="translate(556.59375 0)"/>
+    <use xlink:href="#Aspekta-400-155" transform="translate(604.390625 0)"/>
+    <use xlink:href="#Aspekta-400-2" transform="translate(623.984375 0)"/>
+    <use xlink:href="#Aspekta-400-ab" transform="translate(643.390625 0)"/>
+    <use xlink:href="#Aspekta-400-c6" transform="translate(703.1875 0)"/>
+    <use xlink:href="#Aspekta-400-ba" transform="translate(723.59375 0)"/>
+    <use xlink:href="#Aspekta-400-ba" transform="translate(760.1875 0)"/>
+    <use xlink:href="#Aspekta-400-101" transform="translate(796.78125 0)"/>
+    <use xlink:href="#Aspekta-400-f6" transform="translate(852.375 0)"/>
+    <use xlink:href="#Aspekta-400-c6" transform="translate(900.171875 0)"/>
+    <use xlink:href="#Aspekta-400-e4" transform="translate(920.578125 0)"/>
+    <use xlink:href="#Aspekta-400-de" transform="translate(978.578125 0)"/>
+    <use xlink:href="#Aspekta-400-154" transform="translate(1034.171875 0)"/>
+    <use xlink:href="#Aspekta-400-2" transform="translate(1056.375 0)"/>
+    <use xlink:href="#Aspekta-400-f6" transform="translate(1075.78125 0)"/>
+    <use xlink:href="#Aspekta-400-ef" transform="translate(1123.578125 0)"/>
+    <use xlink:href="#Aspekta-400-af" transform="translate(1183.375 0)"/>
+    <use xlink:href="#Aspekta-400-af" transform="translate(1239.578125 0)"/>
+    <use xlink:href="#Aspekta-400-a5" transform="translate(1295.78125 0)"/>
+    <use xlink:href="#Aspekta-400-c2" transform="translate(1349.6875 0)"/>
+    <use xlink:href="#Aspekta-400-2" transform="translate(1405.28125 0)"/>
+    <use xlink:href="#Aspekta-400-97" transform="translate(1424.6875 0)"/>
+    <use xlink:href="#Aspekta-400-de" transform="translate(1475.890625 0)"/>
+    <use xlink:href="#Aspekta-400-ab" transform="translate(1531.484375 0)"/>
+    <use xlink:href="#Aspekta-400-2" transform="translate(1591.28125 0)"/>
+    <use xlink:href="#Aspekta-400-af" transform="translate(1610.6875 0)"/>
+    <use xlink:href="#Aspekta-400-db" transform="translate(1666.890625 0)"/>
+    <use xlink:href="#Aspekta-400-a3" transform="translate(1752.6875 0)"/>
+    <use xlink:href="#Aspekta-400-af" transform="translate(1812.484375 0)"/>
+    <use xlink:href="#Aspekta-400-ab" transform="translate(1868.6875 0)"/>
+    <use xlink:href="#Aspekta-400-ab" transform="translate(1928.484375 0)"/>
+    <use xlink:href="#Aspekta-400-c6" transform="translate(1988.28125 0)"/>
+    <use xlink:href="#Aspekta-400-de" transform="translate(2008.6875 0)"/>
+    <use xlink:href="#Aspekta-400-bc" transform="translate(2064.28125 0)"/>
+    <use xlink:href="#Aspekta-400-f6" transform="translate(2124.078125 0)"/>
+   </g>
+  </g>
+  <g id="text_20">
+   <!-- NVIDIA B200 · CUDA 13 · TORCH 2.13 · BF16 · END-TO-END, CORRECTNESS-GATED (PSNR / IDENTICAL TRANSCRIPT / IDENTICAL RETRIEVAL RANKING) -->
+   <g style="fill: #26241d" transform="translate(36 44.352) scale(0.08 -0.08)">
+    <defs>
+     <path id="JuliusSansOne-Regular-39" d="M 2368 928 
+L 3904 4576 
+L 4230 4576 
+L 2259 -38 
+L 2080 -38 
+L 102 4576 
+L 448 4576 
+L 1984 941 
+Q 2144 550 2182 403 
+Q 2234 608 2368 928 
+z
+" transform="scale(0.015625)"/>
+     <path id="JuliusSansOne-Regular-38" d="M 3929 444 
+Q 3488 -77 2585 -77 
+Q 1683 -77 1238 448 
+Q 794 973 794 1882 
+L 794 4576 
+L 1101 4576 
+L 1101 1882 
+Q 1101 192 2582 192 
+Q 4064 192 4064 1882 
+L 4064 4576 
+L 4371 4576 
+L 4371 1882 
+Q 4371 966 3929 444 
+z
+" transform="scale(0.015625)"/>
+     <path id="JuliusSansOne-Regular-29" d="M 845 0 
+L 845 4576 
+L 3181 4576 
+L 3181 4307 
+L 1152 4307 
+L 1152 2624 
+L 3008 2624 
+L 3008 2362 
+L 1152 2362 
+L 1152 0 
+L 845 0 
+z
+" transform="scale(0.015625)"/>
+     <path id="JuliusSansOne-Regular-10" d="M 448 2330 
+L 2714 2330 
+L 2714 2074 
+L 448 2074 
+L 448 2330 
+z
+" transform="scale(0.015625)"/>
+     <path id="JuliusSansOne-Regular-b" d="M 909 19 
+Q 576 762 576 1709 
+Q 576 2656 909 3398 
+Q 1242 4141 1760 4563 
+L 1926 4384 
+Q 1491 3974 1200 3254 
+Q 909 2534 909 1708 
+Q 909 883 1200 163 
+Q 1491 -557 1926 -966 
+L 1760 -1146 
+Q 1242 -723 909 19 
+z
+" transform="scale(0.015625)"/>
+     <path id="JuliusSansOne-Regular-12" d="M 64 13 
+L 2054 4634 
+L 2304 4538 
+L 314 -83 
+L 64 13 
+z
+" transform="scale(0.015625)"/>
+     <path id="JuliusSansOne-Regular-c" d="M 1145 3398 
+Q 1478 2656 1478 1709 
+Q 1478 762 1145 19 
+Q 813 -723 294 -1146 
+L 128 -966 
+Q 563 -557 854 163 
+Q 1146 883 1146 1708 
+Q 1146 2534 854 3254 
+Q 563 3974 128 4384 
+L 294 4563 
+Q 813 4141 1145 3398 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#JuliusSansOne-Regular-31"/>
+    <use xlink:href="#JuliusSansOne-Regular-39" transform="translate(87.5 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(155.203125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(186.40625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(267.90625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(299.109375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(365.40625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-25" transform="translate(401.40625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-15" transform="translate(464.3125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-13" transform="translate(526.3125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-13" transform="translate(591.8125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(657.3125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-79" transform="translate(693.3125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(714.609375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(750.609375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-38" transform="translate(825.109375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(905.8125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(986.3125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1052.609375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-14" transform="translate(1088.609375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-16" transform="translate(1118.8125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1177.40625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-79" transform="translate(1213.40625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1234.703125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(1270.703125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(1324.703125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(1413 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(1477.796875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2b" transform="translate(1552.296875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1637.390625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-15" transform="translate(1673.390625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-11" transform="translate(1735.390625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-14" transform="translate(1746.6875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-16" transform="translate(1776.890625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1835.484375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-79" transform="translate(1871.484375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1892.78125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-25" transform="translate(1928.78125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-29" transform="translate(1991.6875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-14" transform="translate(2046.984375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-19" transform="translate(2078.78125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(2139.1875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-79" transform="translate(2175.1875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(2196.484375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(2232.484375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(2285.984375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(2373.484375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-10" transform="translate(2457.390625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(2501.296875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(2555.296875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-10" transform="translate(2643.59375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(2693 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(2746.5 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(2834 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-f" transform="translate(2911.5 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(2922.796875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(2958.796875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(3031.703125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(3120 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(3185.796875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(3251.59375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(3305.09375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(3379.59375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(3437.1875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(3524.6875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(3578.1875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(3632.890625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-10" transform="translate(3687.59375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2a" transform="translate(3737 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(3819.203125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(3877.90625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(3935.5 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(3989 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(4070.5 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-b" transform="translate(4106.5 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-33" transform="translate(4138.59375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(4196.6875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(4251.390625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(4338.890625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(4404.6875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-12" transform="translate(4440.6875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(4477.6875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(4513.6875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(4544.890625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(4626.390625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(4679.890625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(4767.390625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(4824.984375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(4856.1875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(4930.6875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2f" transform="translate(4996.984375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(5050.078125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(5086.078125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(5143.671875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(5209.46875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(5275.765625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(5363.265625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(5417.96875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(5492.46875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(5558.265625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-33" transform="translate(5589.46875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(5647.5625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(5705.15625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-12" transform="translate(5741.15625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(5778.15625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(5814.15625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(5845.359375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(5926.859375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(5980.359375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(6067.859375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(6125.453125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(6156.65625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(6231.15625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2f" transform="translate(6297.453125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(6350.546875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(6386.546875 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(6452.34375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(6505.84375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(6563.4375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(6629.234375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(6660.4375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-39" transform="translate(6713.9375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(6775.640625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2f" transform="translate(6841.9375 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(6895.03125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(6931.03125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(6996.828125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(7063.125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2e" transform="translate(7150.625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(7212.625 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(7243.828125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-2a" transform="translate(7331.328125 0)"/>
+    <use xlink:href="#JuliusSansOne-Regular-c" transform="translate(7413.53125 0)"/>
+   </g>
+  </g>
+  <g id="legend_1">
+   <g id="patch_14">
+    <path d="M 127.06082 290.978 
+L 138.96082 290.978 
+L 138.96082 282.818 
+L 127.06082 282.818 
+z
+" style="fill: #d7cfba; stroke: #26241d; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_21">
+    <!-- TUNED TORCH.COMPILE (BEST OF THE CONFIG SWEEP) -->
+    <g style="fill: #26241d" transform="translate(144.91082 289.788) scale(0.085 -0.085)">
+     <use xlink:href="#JuliusSansOne-Regular-37"/>
+     <use xlink:href="#JuliusSansOne-Regular-38" transform="translate(57.59375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(138.296875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(225.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(279.296875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(360.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(396.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(450.796875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(539.09375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(603.890625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2b" transform="translate(678.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-11" transform="translate(763.484375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(774.78125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(847.6875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-30" transform="translate(935.984375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-33" transform="translate(1029.984375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(1088.078125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2f" transform="translate(1119.28125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(1172.375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1225.875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-b" transform="translate(1261.875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-25" transform="translate(1293.96875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(1356.875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(1410.375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(1465.078125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1522.671875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(1558.671875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-29" transform="translate(1646.96875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1702.265625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(1738.265625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2b" transform="translate(1795.859375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(1880.953125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1934.453125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(1970.453125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(2043.359375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(2131.65625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-29" transform="translate(2219.15625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(2274.453125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2a" transform="translate(2305.65625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(2387.859375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(2423.859375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3a" transform="translate(2478.5625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(2582.5625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(2636.0625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-33" transform="translate(2689.5625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-c" transform="translate(2747.65625 0)"/>
+    </g>
+   </g>
+   <g id="patch_15">
+    <path d="M 402.43957 290.978 
+L 414.33957 290.978 
+L 414.33957 282.818 
+L 402.43957 282.818 
+z
+" style="fill: #e57f45"/>
+   </g>
+   <g id="text_22">
+    <!-- HOID KERNELS AS TORCH CUSTOM OPS -->
+    <g style="fill: #26241d" transform="translate(420.28957 289.788) scale(0.085 -0.085)">
+     <use xlink:href="#JuliusSansOne-Regular-2b"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(85.09375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2c" transform="translate(173.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-27" transform="translate(204.59375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(286.09375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2e" transform="translate(322.09375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(384.09375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(437.59375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-31" transform="translate(503.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-28" transform="translate(590.890625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2f" transform="translate(644.390625 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(697.484375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(752.1875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-24" transform="translate(788.1875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(854.484375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(909.1875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(945.1875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(999.1875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-35" transform="translate(1087.484375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(1152.28125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-2b" transform="translate(1226.78125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1311.875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-26" transform="translate(1347.875 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-38" transform="translate(1422.375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(1503.078125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-37" transform="translate(1557.78125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(1611.78125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-30" transform="translate(1700.078125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-3" transform="translate(1794.078125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-32" transform="translate(1830.078125 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-33" transform="translate(1918.375 0)"/>
+     <use xlink:href="#JuliusSansOne-Regular-36" transform="translate(1976.46875 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p06a9cc7e70">
+   <rect x="36" y="102.816" width="191.314286" height="133.056"/>
+  </clipPath>
+  <clipPath id="pbe2233a311">
+   <rect x="275.142857" y="102.816" width="191.314286" height="133.056"/>
+  </clipPath>
+  <clipPath id="p9d760660b9">
+   <rect x="514.285714" y="102.816" width="191.314286" height="133.056"/>
+  </clipPath>
+ </defs>
+</svg>
