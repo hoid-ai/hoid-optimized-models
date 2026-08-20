@@ -13,7 +13,7 @@ uv sync
 uv run best_torch.py && uv run best_hoid.py
 ```
 
-Each model's README has the exact commands and the full measured table. The stock baseline is never a strawman: `best_torch.py` sweeps a whole configuration lattice (eager SDPA, compile default, reduce-overhead, max-autotune, …) and the hoid stack is compared against the per-metric best of it.
+Each model's README has the exact commands and the full measured table. To get the best torch baseline, `best_torch.py` sweeps a whole configuration lattice (eager SDPA, compile default, reduce-overhead, max-autotune, …) and the hoid stack is compared against the per-metric best of it.
 
 
 
