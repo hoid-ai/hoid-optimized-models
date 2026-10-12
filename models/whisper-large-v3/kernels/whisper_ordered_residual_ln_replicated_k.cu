@@ -88,6 +88,8 @@ extern "C" __global__ void whisper_ordered_residual_ln_replicated_k(
     v0 += d0 * d0;
     v1 += d1 * d1;
   }
+  // every warp must finish reading red[] before the next reduction overwrites it
+  __syncthreads();
   float inv = rsqrtf(ordered_sum_256x2_replicated(v0, v1, red) / 1280.0f + eps);
 
   __nv_bfloat162 gv[5], betav[5];
