@@ -79,7 +79,7 @@ KERNELS = {
         'entry': 'whisper_ordered_residual_ln_replicated_k',
         'format': 'cuda',
         'file': 'whisper_ordered_residual_ln_replicated_k.cu',
-        'sha256': '268cf7d164bf99973f3666d0d0093200996f8b68e761b578a71243694f2691c9',
+        'sha256': '4cbe72d88df7154b5523e8ca62ac8b1a057eea3c3904ca4123e7e643496dc183',
         'count': 63,
         'launch': {'grid': ['1500', '1', '1'], 'block': ['128', '1', '1'], 'shared_mem': '0'},
     },
